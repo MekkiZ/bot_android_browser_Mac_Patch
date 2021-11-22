@@ -1,0 +1,20 @@
+16740:2021-07-22 14:16:29,073:INFO:__Browser_PagesJaunes_Search_by_keywords_city__:Browse_PagesJaunes_Search_by_Keyword_City:=== [1] Scrapping script launched =======================================
+16740:2021-07-22 14:16:29,073:INFO:__mymodulesteam__:KillProgram:=================================== KillProgram chrome ===========================================
+16740:2021-07-22 14:16:37,705:INFO:__Browser_PagesJaunes_Search_by_keywords_city__:Browse_PagesJaunes_Search_by_Keyword_City:Tenso already scraped
+16740:2021-07-22 14:16:46,912:INFO:__Browser_PagesJaunes_Search_by_keywords_city__:scrappe_contact_info:Page No longer available (func: s_c_i getting name): Message: 
+
+16740:2021-07-22 14:16:56,107:INFO:__Browser_PagesJaunes_Search_by_keywords_city__:scrappe_contact_info:Page No longer available (func: s_c_i getting name): Message: 
+
+16740:2021-07-22 14:17:02,079:INFO:__Browser_PagesJaunes_Search_by_keywords_city__:scrappe_contact_info:Facebook not found: Message: 
+
+16740:2021-07-22 14:17:09,473:INFO:__Browser_PagesJaunes_Search_by_keywords_city__:scrappe_contact_info:Page No longer available (func: s_c_i getting name): Message: 
+
+16740:2021-07-22 14:17:18,648:INFO:__Browser_PagesJaunes_Search_by_keywords_city__:scrappe_contact_info:Page No longer available (func: s_c_i getting name): Message: 
+
+16740:2021-07-22 14:17:28,822:INFO:__Browser_PagesJaunes_Search_by_keywords_city__:scrappe_contact_info:Facebook not found: Message: 
+
+16740:2021-07-22 14:17:40,013:INFO:__Browser_PagesJaunes_Search_by_keywords_city__:scrappe_contact_info:Page No longer available (func: s_c_i getting name): Message: 
+
+16740:2021-07-22 14:17:40,028:INFO:__Browser_PagesJaunes_Search_by_keywords_city__:Browse_PagesJaunes_Search_by_Keyword_City:Ifop already scraped
+16740:2021-07-22 14:17:46,893:INFO:__Browser_PagesJaunes_Search_by_keywords_city__:scrappe_contact_info:Exception contact doesn't have any tel number (l:79): Message: 
+

@@ -1,0 +1,155 @@
+Bienvenue dans la formation Selenium et Appium
+
+Le code source présent ici dans ce repository est le code source de notre logiciel phonebot.co
+
+<h2>1. Suivez la formation Selenium:</h2>
+https://formationgrowthhacking.com/formation/formation-selenium/
+
+<h2>2. Suivez la formation Appium:</h2>
+https://formationgrowthhacking.com/formation/formation-appium-avec-python/
+
+<h2>3. Suivez la formation Développeur PhoneBot:</h2>
+https://formationgrowthhacking.com/formation/formation-developpeur-phonebot/
+
+<h2>4. Création d'un script qui automatise une tâche:</h2>
+Notre logiciel PhoneBot.co automatise certaines tâches sur les réseaux sociaux (Facebook, Linkedin, Twitter, etc...).
+Votre mission est de créer un module de fichiers python qui effectue une seule tâche avec Selenium (pour l'automatisation du bureau) ou Appium (pour l'automatisation des smartphones).
+Notre robot a 25 tâches et il en aura plus à l'avenir. Nous avons organisé les tâches en 4 catégories :
+<ul>
+ <li> Cold Messaging : envoyer un message aux membres de groupes/forums ou aux abonnés d'un influenceur</li>
+ <li> Influenceurs : envoyer un message aux administrateurs de groupes/forums ou aux influenceurs</li>
+ <li> Scraping : Collectez les détails du profil des utilisateurs des réseaux sociaux</li>
+ <li> Autorité : Aide à développer un compte social (Suivre, Ne plus suivre, J'aime, etc...)</li>
+</ul>
+
+Dans votre module, il y aura une fonction principale qui exécutera la tâche et renverra True (s'il n'y a pas eu de problème et que la tâche a été exécutée) ou False (si une exception s'est produite).
+
+Votre module python doit être nommé comme : Category_Platform_Name_id_task.py . <i>Ex : Cold_Messaging_Facebook_Group_Members_3.py</i>
+
+La fonction principale de votre module doit recevoir 6 paramètres : p_browser, p_taskuser_id, p_driver, p_quantity_actions, label_log, lock
+Vous pouvez donc initialiser certaines variables et les passer en paramètres à votre fonction.
+
+    lock = threading.Lock() #This is necessary to protect the access to the database in multithreading mode
+    p_browser = "Chrome" # This is the name of the browser
+    p_taskuser_id = 2883 # This is the Task user id you get from the dashboard.phonebot.co
+    p_quantity_actions = 10 # This is the maximum of actions that can do your task
+    label_log = "" # This is an object of PyQt5 which will display some message on the UI
+    
+    comment_facebook_posts_by_keyword(p_browser, p_taskuser_id, p_quantity_actions, label_log, lock)
+    
+    
+<h2>FILES</h2>
+Ce référentiel est destiné aux développeurs. Il y a 2 fichiers principaux :
+
+<ul><li><b>mymodulesteam.py</b> : est nos fichiers communs pour nos fonctions. N'hésitez pas à ajouter vos propres fonctions et à informer notre équipe sur discord s'il vous plaît.
+Les autres fichiers python sont des exemples de tâches effectuées par vos collègues. N'hésitez pas à y jeter un œil pour comprendre comment il est fabriqué.</li>
+ 
+  <li><b>sample_task_selenium.py</b> : c'est le minimum de lignes de code pour démarrer le navigateur. Il est utile pour Selenium Newbie.</li>
+ 
+ 
+ 
+  <li><b>Tous les autres fichiers py</b> : sont les fonctionnalités de notre robot développées par d'autres développeurs. Vous pouvez les consulter pour vous inspirer et coder plus rapidement.</li></ul>
+ 
+ 
+# ==============================
+  POUR DEMARRER LE NAVIGATEUR AVEC COOKIE (PAS BESOIN LOGIN/MOT DE PASSE GRACE AUX FONCTIONS CI-DESSOUS
+# ==============================
+# OUVERTURE DU NAVIGATEUR
+    if p_browser == "Chrome":
+        driver = mymodulesteam.ChromeDriverWithProfile()
+    elif p_browser == "Firefox":
+        driver = mymodulesteam.FireFoxDriverWithProfile()
+    else:
+        logger.error(f"PhoneBot didn't find the browser called '{p_browser}'.")
+        
+ 
+ 
+<h2>SQLITE3 DATABASE</h2>
+
+Nos utilisateurs finaux aimeraient voir ce que leur PhoneBot a fait. Ainsi, PhoneBot enregistre dans une base de données sqlite3 locale toutes les activités exécutées dans le passé. Toutes les tâches exécutées sont stockées dans 2 tables : contact & actions.
+
+Les tâches d'automatisation consistent à contacter, suivre, gratter et se désabonner des personnes. Notre script met donc à jour la table "contacts" pour insérer un nouveau contact ciblé par phonebot. Et il met à jour la table "actions" liée aux "contacts" via la clé étrangère "id_contact".
+
+Pour créer une connexion à la base de données sqlite, vous utilisez ce script :
+
+    sqlite_connection = sqlite3.connect(mymodulesteam.LoadFile('db.db'))
+    sqlite_cursor = sqlite_connection.cursor()
+    
+Lorsque votre script jouera avec la base de données, vous devez intégrer vos lignes de code avec un verrou. Regardez l'exemple ci-dessous :
+
+    with lock:
+        sqlite_cursor.execute("INSERT INTO actions (platform,type_action,date,message,id_smartphone, id_social_account,id_contact,fb_group_name)  VALUES (?,?,?,?,?,?,?,?)",
+                    ('facebook',
+                     'message_to_send', date_n_time,
+                     facebook_msg,
+                     p_udid,
+                     myprofile_username,
+                     id_contact,facebook_group))
+        sqlite_connection.commit()
+
+
+Comme vous aurez besoin de ce "lock", vous pouvez le créer avant d'appeler votre script avec cette ligne ci-dessous :
+
+    lock = threading.Lock()
+
+
+
+<h2>Mon script va faire une tâche en masse... Quelles sont les limites ? Quelles sont les cibles ? Quels sont les messages ? </h2>
+Notre PhoneBot transmettra certains paramètres à votre fonction.
+Le paramètre principal est l'ID utilisateur de la tâche.
+Avec ce taskuser_id, nous pouvons obtenir tous les détails des tâches à l'aide de la fonction <b>mymodulesteam.GetDetailsTaskUserMysql(taskuser_id)</b>
+
+
+<h3>UTILISER WEBDRIVERWAIT</h3>
+Lors de votre apprentissage slenium, vous serez tenté d'utiliser la méthode "find_element_by....". Cette méthode échoue si la page n'est pas chargée. Il existe une méthode qui fait la même chose mais elle attend X secondes au cas où l'élément HTML n'est pas immédiatement là.
+VOUS DEVEZ UTILISER CETTE MÉTHODE !!!
+
+    likers_profiles = WebDriverWait(driver, 10).until(EC.presence_of_all_elements_located((By.XPATH,("//div[contains(@class,'artdeco-modal-overlay')]//div[contains(@class,'artdeco-modal__content')]//a"))))
+    
+<h3>UTILISER JAVASCRIPT POUR CLIQUER</h3>
+La méthode Selenium ".click()" ne fonctionne pas très bien. Pour l'automatisation du navigateur, utilisez une de ces méthodes ci-dessous pour faire un clic :
+
+    likers_counter = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.XPATH, ("//span[contains(@class,'social-details-social-counts__reactions-count')]"))))
+    driver.execute_script("arguments[0].click();", likers_counter)
+    
+
+    --> Simple click:
+    p_driver.execute_script("var evt = document.createEvent('MouseEvents');"+ "evt.initMouseEvent('click',true, true, window, 0, 0, 0, 0, 0, false, false, false, false, 0,null);"+ "arguments[0].dispatchEvent(evt);", button);
+
+
+    --> Double Click: "dblclick"
+    p_driver.execute_script("var evt = document.createEvent('MouseEvents');"+ "evt.initMouseEvent('dblclick',true, true, window, 0, 0, 0, 0, 0, false, false, false, false, 0,null);"+ "arguments[0].dispatchEvent(evt);", button);
+
+
+<h3>AFFICHER TOUS LES MESSAGES D'ERREUR AVEC LA CONNEXION</h3>
+En tant que développeur, vous utilisez print pour afficher un message d'erreur dans la console pour suivre et déboguer votre code. Nous vous demandons d'utiliser l'une des méthodes ci-dessous. Il enregistrera le message d'erreur dans un fichier journal et les utilisateurs finaux nous enverront ce fichier journal en cas de problème.
+
+    logger.info(f"PhoneBot didn't find the browser called '{p_browser}'.")
+    logger.warn(f"PhoneBot didn't find the browser called '{p_browser}'.")
+    logger.error(f"PhoneBot didn't find the browser called '{p_browser}'.")
+    logger.critic(f"PhoneBot didn't find the browser called '{p_browser}'.")
+    
+    
+  
+ <h3>A PROPOS DES XPATHS [IMPORTANT] !!!</h3>
+
+Pensez à mettre des Xpaths qui identifient de manière sur et pour très longtemps les éléments:
+par exemple, ce xpath est catastrophique car il n'y a pas d'identifiant ou de classe CSS qui identifie de manière certaine l'élément du DOM:
+
+    //div[contains(@class,'_7UhW9   xLCgt      MMzan   _0PwGv             fDxYl ')]
+
+Dans 1 jour, 1 semaine ou 1 mois, le code va bugger, c'est sur!
+
+Alors que ce genre de XPath est beaucoup plus sur dans le temps:
+
+    //button[contains(text(),'Se désabonner') or contains(text(),'Unfollow') ]
+
+Car le texte du bouton "Se désabonner" n'est pas prêt de changer dans le temps!
+
+
+
+# pHoNebOt_Project
+# pHoNebOt_Project
+# pHoNebOt_Project
+# PhoneBot_Widget
+# PhoneBot_Widget

@@ -1,0 +1,13 @@
+2156:2021-07-22 09:00:53,452:INFO:__RunBrowser__:StartBrowser:COMPUTER||||Firefox||| StartBrowser id task: 29 id task user: 2177 ==========================
+2156:2021-07-22 09:00:53,452:ERROR:__mymodules__:DisplayMessageLogUI:Error DisplayMessageLogUI : 'str' object has no attribute 'text'
+2156:2021-07-22 09:00:53,452:ERROR:__mymodules__:DisplayMessageLogUI:Error DisplayMessageLogUI : 'str' object has no attribute 'text'
+2156:2021-07-22 09:01:06,920:INFO:__Yellowpages_Browser_Bot__:RunYellowpagesBrowser:================================================ RunYellowpagesBrowser 2177 ===================================================
+2156:2021-07-22 09:01:09,288:INFO:__Yellowpages_Browser_Bot__:RunYellowpagesBrowser:=== [1] Open Browser =======================================
+2156:2021-07-22 09:01:09,288:INFO:__mymodulesteam__:KillProgram:=================================== KillProgram firefox ===========================================
+2156:2021-07-22 09:01:09,288:INFO:__mymodulesteam__:KillProgram:=================================== KillProgram firefox ===========================================
+2156:2021-07-22 09:01:09,288:INFO:__mymodulesteam__:KillProgram:=================================== KillProgram firefox ===========================================
+2156:2021-07-22 09:01:20,015:INFO:__Yellowpages_Browser_Bot__:RunYellowpagesBrowser:=== [3] GetQuantityActions =======================================
+2156:2021-07-22 09:01:20,015:INFO:__mymodules__:GetQuantityActions:# ======== GetQuantityActions ========= GET THE LIMITS 2177 - Desktop ==========================
+2156:2021-07-22 09:01:20,015:INFO:__mymodules__:GetQuantityActions:# ======== GetQuantityActions ========= GET THE LIMITS 2177 - Desktop ==========================
+2156:2021-07-22 09:01:20,980:INFO:__mymodules__:GetQuantityActions:User Desktop can make 200 actions now
+2156:2021-07-22 09:01:20,980:INFO:__mymodules__:GetQuantityActions:User Desktop can make 200 actions now

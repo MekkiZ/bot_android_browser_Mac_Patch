@@ -1,0 +1,3693 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <widget name="__qt_fake_top_level">
+  <widget class="QTabWidget" name="tabWidget">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>1011</width>
+     <height>571</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="currentIndex">
+    <number>0</number>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>12</width>
+     <height>12</height>
+    </size>
+   </property>
+   <widget class="QWidget" name="tab_run">
+    <attribute name="icon">
+     <iconset resource="run.qrc">
+      <normaloff>:/run/play-button.png</normaloff>:/run/play-button.png</iconset>
+    </attribute>
+    <attribute name="title">
+     <string>Run Campaign</string>
+    </attribute>
+    <widget class="QLabel" name="label_4_Title">
+     <property name="geometry">
+      <rect>
+       <x>570</x>
+       <y>120</y>
+       <width>191</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>11</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="toolTip">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Before to run PhoneBot, you need to create at least &lt;br/&gt;one campaign in &lt;a href=&quot;https://phonebot.co/dashboard&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;https://phonebot.co/dashboard&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="whatsThis">
+      <string/>
+     </property>
+     <property name="text">
+      <string>1. Select a campaign</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_info_campaign">
+     <property name="geometry">
+      <rect>
+       <x>580</x>
+       <y>180</y>
+       <width>421</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Some tasks were configured.</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="button_Run">
+     <property name="geometry">
+      <rect>
+       <x>580</x>
+       <y>380</y>
+       <width>150</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="toolTip">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Start PhoneBot if steps 1 and 2 are done.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(85, 255, 127);</string>
+     </property>
+     <property name="text">
+      <string>Run</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normalon>:/run/play-button.png</normalon>
+      </iconset>
+     </property>
+     <property name="checkable">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="button_Quit">
+     <property name="geometry">
+      <rect>
+       <x>740</x>
+       <y>380</y>
+       <width>150</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="toolTip">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Quit PhoneBot&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 112, 93);</string>
+     </property>
+     <property name="text">
+      <string>Quit</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normalon>:/quit/quit.png</normalon>
+      </iconset>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_log">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>300</y>
+       <width>481</width>
+       <height>181</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>7</pointsize>
+      </font>
+     </property>
+     <property name="toolTip">
+      <string>PhoneBot will display here all the success and error messages.</string>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-color: rgb(107, 107, 107);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="textFormat">
+      <enum>Qt::RichText</enum>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+     <property name="openExternalLinks">
+      <bool>true</bool>
+     </property>
+     <property name="textInteractionFlags">
+      <set>Qt::LinksAccessibleByKeyboard|Qt::LinksAccessibleByMouse|Qt::TextBrowserInteraction|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="button_Report">
+     <property name="geometry">
+      <rect>
+       <x>580</x>
+       <y>480</y>
+       <width>150</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="toolTip">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Open the reporting tool to see your statistics&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(199, 199, 199);</string>
+     </property>
+     <property name="text">
+      <string>See Report</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normalon>:/report/seo-report.png</normalon>
+      </iconset>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_running">
+     <property name="geometry">
+      <rect>
+       <x>700</x>
+       <y>20</y>
+       <width>145</width>
+       <height>75</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="openExternalLinks">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_logo">
+     <property name="geometry">
+      <rect>
+       <x>740</x>
+       <y>20</y>
+       <width>75</width>
+       <height>75</height>
+      </rect>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-image: url(:/logo/logo_phonebot_300.jpg);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="textFormat">
+      <enum>Qt::RichText</enum>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="logo.qrc">:/logo/logo_phonebot_300.jpg</pixmap>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <property name="openExternalLinks">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="comboBox_select_campaign">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>580</x>
+       <y>150</y>
+       <width>261</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_4_Title_2">
+     <property name="geometry">
+      <rect>
+       <x>570</x>
+       <y>240</y>
+       <width>381</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>11</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="toolTip">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;You can automate both at the same time: Your computer and your smartphone(s).&lt;br/&gt;It is up to you to select which devices will execute the tasks of your campaign.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="text">
+      <string>2. Select the device(s) which will execute the taks</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_smartphones">
+     <property name="geometry">
+      <rect>
+       <x>580</x>
+       <y>300</y>
+       <width>181</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="toolTip">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Don't forget to go to the &amp;quot;Settings&amp;quot; tab to detect your connected smartphones.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="text">
+      <string>Your smartphone(s)</string>
+     </property>
+     <property name="checked">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_4_Title_3">
+     <property name="geometry">
+      <rect>
+       <x>570</x>
+       <y>350</y>
+       <width>211</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>11</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="toolTip">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When (1.) &amp;amp; (2.) are done, you can run PhoneBot.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="text">
+      <string>3. Run/Stop PhoneBot</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>580</x>
+       <y>200</y>
+       <width>401</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <italic>true</italic>
+      </font>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Go to your dashboard to create &amp;amp; edit campaigns &lt;a href=&quot;https://phonebot.co/dashboard&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;https://phonebot.co/dashboard&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="textFormat">
+      <enum>Qt::RichText</enum>
+     </property>
+     <property name="openExternalLinks">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_info_bubble">
+     <property name="geometry">
+      <rect>
+       <x>730</x>
+       <y>120</y>
+       <width>31</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="toolTip">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Before to run PhoneBot, you need to create at least &lt;br/&gt;one campaign in &lt;a href=&quot;https://phonebot.co/dashboard&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;https://phonebot.co/dashboard&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="info.qrc">:/info/information.png</pixmap>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_info_bubble_2">
+     <property name="geometry">
+      <rect>
+       <x>950</x>
+       <y>240</y>
+       <width>31</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="toolTip">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;You can automate both at the same time: Your computer and your smartphone(s).&lt;br/&gt;It is up to you to select which devices will execute the tasks of your campaign.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="info.qrc">:/info/information.png</pixmap>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_4_Title_4">
+     <property name="geometry">
+      <rect>
+       <x>570</x>
+       <y>450</y>
+       <width>161</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>11</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="toolTip">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Once the job is done, click on this button and your results will be available on &lt;a href=&quot;https://phonebot.co/dashboard&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;https://phonebot.co/dashboard&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="text">
+      <string>4. See the results</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_info_bubble_3">
+     <property name="geometry">
+      <rect>
+       <x>740</x>
+       <y>350</y>
+       <width>31</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="toolTip">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When (1.) &amp;amp; (2.) are done, you can run PhoneBot.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="info.qrc">:/info/information.png</pixmap>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_info_bubble_4">
+     <property name="geometry">
+      <rect>
+       <x>710</x>
+       <y>450</y>
+       <width>31</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="toolTip">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Once the job is done, click on this button and your results will be available on &lt;a href=&quot;https://phonebot.co/dashboard&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;https://phonebot.co/dashboard&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="info.qrc">:/info/information.png</pixmap>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_info_bubble_5">
+     <property name="geometry">
+      <rect>
+       <x>710</x>
+       <y>270</y>
+       <width>31</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="toolTip">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;You have to select which browser will run the automation.&lt;/p&gt;&lt;p&gt;PhoneBot will use your cookie session to log in in social platforms.&lt;/p&gt;&lt;p&gt;That is why you need to select a browser which can login to website without login credentials.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="info.qrc">:/info/information.png</pixmap>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_info_bubble_6">
+     <property name="geometry">
+      <rect>
+       <x>720</x>
+       <y>300</y>
+       <width>31</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="toolTip">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Don't forget to go to the &amp;quot;Settings&amp;quot; tab to detect your connected smartphones.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="info.qrc">:/info/information.png</pixmap>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_info_devices">
+     <property name="geometry">
+      <rect>
+       <x>580</x>
+       <y>320</y>
+       <width>421</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_loading_run">
+     <property name="geometry">
+      <rect>
+       <x>450</x>
+       <y>160</y>
+       <width>128</width>
+       <height>128</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_loading_txt_run">
+     <property name="geometry">
+      <rect>
+       <x>340</x>
+       <y>290</y>
+       <width>341</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Please wait... PhoneBot is building the report...</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_yourcomputer">
+     <property name="geometry">
+      <rect>
+       <x>580</x>
+       <y>270</y>
+       <width>121</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Your computer:</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_Chrome">
+     <property name="geometry">
+      <rect>
+       <x>750</x>
+       <y>270</y>
+       <width>91</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Chrome</string>
+     </property>
+     <property name="checked">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_Firefox">
+     <property name="geometry">
+      <rect>
+       <x>840</x>
+       <y>270</y>
+       <width>91</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Firefox</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="button_OpenLogFile">
+     <property name="geometry">
+      <rect>
+       <x>319</x>
+       <y>500</y>
+       <width>181</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="toolTip">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Open the reporting tool to see your statistics&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(199, 199, 199);</string>
+     </property>
+     <property name="text">
+      <string>Download Log files</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normalon>:/log_icon/log_icon.png</normalon>
+      </iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_youtube_1">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>27</y>
+       <width>381</width>
+       <height>231</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">image: url(:/youtube_1/video_onboarding_1.jpg);
+border:0;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <zorder>label_4_Title</zorder>
+    <zorder>label_info_campaign</zorder>
+    <zorder>button_Run</zorder>
+    <zorder>button_Quit</zorder>
+    <zorder>label_log</zorder>
+    <zorder>button_Report</zorder>
+    <zorder>label_logo</zorder>
+    <zorder>label_running</zorder>
+    <zorder>comboBox_select_campaign</zorder>
+    <zorder>label_4_Title_2</zorder>
+    <zorder>checkBox_smartphones</zorder>
+    <zorder>label_4_Title_3</zorder>
+    <zorder>label</zorder>
+    <zorder>label_info_bubble</zorder>
+    <zorder>label_info_bubble_2</zorder>
+    <zorder>label_4_Title_4</zorder>
+    <zorder>label_info_bubble_3</zorder>
+    <zorder>label_info_bubble_4</zorder>
+    <zorder>label_info_bubble_5</zorder>
+    <zorder>label_info_bubble_6</zorder>
+    <zorder>label_info_devices</zorder>
+    <zorder>label_loading_run</zorder>
+    <zorder>label_loading_txt_run</zorder>
+    <zorder>label_yourcomputer</zorder>
+    <zorder>checkBox_Chrome</zorder>
+    <zorder>checkBox_Firefox</zorder>
+    <zorder>button_OpenLogFile</zorder>
+    <zorder>pushButton_youtube_1</zorder>
+   </widget>
+   <widget class="QWidget" name="tab_run_one_task">
+    <attribute name="icon">
+     <iconset resource="run_1_task.qrc">
+      <normaloff>:/run_1_task/play_1_task.png</normaloff>:/run_1_task/play_1_task.png</iconset>
+    </attribute>
+    <attribute name="title">
+     <string>Run one Task</string>
+    </attribute>
+    <widget class="QComboBox" name="comboBox_select_campaign_tab_run_one_task">
+     <property name="geometry">
+      <rect>
+       <x>700</x>
+       <y>240</y>
+       <width>261</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_select_campaign_tab_run_one_task">
+     <property name="geometry">
+      <rect>
+       <x>700</x>
+       <y>210</y>
+       <width>251</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>11</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="toolTip">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Before to run PhoneBot, you need to create at least &lt;br/&gt;one campaign in &lt;a href=&quot;https://phonebot.co/dashboard&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;https://phonebot.co/dashboard&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="whatsThis">
+      <string/>
+     </property>
+     <property name="text">
+      <string>1. Select a campaign</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_select_device_tab_run_one_task">
+     <property name="geometry">
+      <rect>
+       <x>700</x>
+       <y>310</y>
+       <width>191</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>11</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="toolTip">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Before to run PhoneBot, you need to create at least &lt;br/&gt;one campaign in &lt;a href=&quot;https://phonebot.co/dashboard&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;https://phonebot.co/dashboard&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="whatsThis">
+      <string/>
+     </property>
+     <property name="text">
+      <string>2. Select a device</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButton_Computer">
+     <property name="geometry">
+      <rect>
+       <x>700</x>
+       <y>340</y>
+       <width>91</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Computer</string>
+     </property>
+     <property name="autoExclusive">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButton_Smartphone">
+     <property name="geometry">
+      <rect>
+       <x>790</x>
+       <y>340</y>
+       <width>101</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Smartphone</string>
+     </property>
+     <property name="autoExclusive">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="comboBox_select_browser_smartphone_tab_run_one_task">
+     <property name="geometry">
+      <rect>
+       <x>700</x>
+       <y>400</y>
+       <width>191</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>8</pointsize>
+      </font>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_select_smartphone_or_browser_tab_run_one_task">
+     <property name="geometry">
+      <rect>
+       <x>700</x>
+       <y>370</y>
+       <width>291</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>11</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="toolTip">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Before to run PhoneBot, you need to create at least &lt;br/&gt;one campaign in &lt;a href=&quot;https://phonebot.co/dashboard&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;https://phonebot.co/dashboard&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="whatsThis">
+      <string/>
+     </property>
+     <property name="text">
+      <string>3. Select a smartphone</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_cold_messaging">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>80</y>
+       <width>141</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>11</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="toolTip">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Before to run PhoneBot, you need to create at least &lt;br/&gt;one campaign in &lt;a href=&quot;https://phonebot.co/dashboard&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;https://phonebot.co/dashboard&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="whatsThis">
+      <string/>
+     </property>
+     <property name="text">
+      <string>Cold Messaging</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_FB_3">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>110</y>
+       <width>150</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>8</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(199, 199, 199);text-align:left;padding-left:10px;</string>
+     </property>
+     <property name="text">
+      <string>Group Members</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normalon>:/facebook/logo_facebook.png</normalon>
+      </iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_Instagram_4">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>135</y>
+       <width>150</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>8</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(199, 199, 199);text-align:left;padding-left:10px;</string>
+     </property>
+     <property name="text">
+      <string>Followers of accounts</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normalon>:/instagram/logo_instagram.png</normalon>
+      </iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_Gmap_9">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>160</y>
+       <width>150</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>8</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(199, 199, 199);text-align:left;padding-left:10px;</string>
+     </property>
+     <property name="text">
+      <string>Search by keyword city</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normalon>:/gmap/logo_gmap.png</normalon>
+      </iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_Linkedin_7">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>185</y>
+       <width>150</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>8</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(199, 199, 199);text-align:left;padding-left:10px;</string>
+     </property>
+     <property name="text">
+      <string>Likers and Post Com...</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normalon>:/linkedin/logo_linkedin.png</normalon>
+      </iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_Linkedin_8">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>210</y>
+       <width>150</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>8</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(199, 199, 199);text-align:left;padding-left:10px;</string>
+     </property>
+     <property name="text">
+      <string>Search by keywords...</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normalon>:/linkedin/logo_linkedin.png</normalon>
+      </iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_Twitter_20">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>235</y>
+       <width>150</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>8</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(199, 199, 199);text-align:left;padding-left:10px;</string>
+     </property>
+     <property name="text">
+      <string>Followers of accounts...</string>
+     </property>
+     <property name="icon">
+      <iconset resource="twitter_rc.qrc">
+       <normaloff>:/twitter/logo_twitter.png</normaloff>:/twitter/logo_twitter.png</iconset>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_cold_messaging_2">
+     <property name="geometry">
+      <rect>
+       <x>340</x>
+       <y>80</y>
+       <width>141</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>11</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="toolTip">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Before to run PhoneBot, you need to create at least &lt;br/&gt;one campaign in &lt;a href=&quot;https://phonebot.co/dashboard&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;https://phonebot.co/dashboard&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="whatsThis">
+      <string/>
+     </property>
+     <property name="text">
+      <string>Scraping</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_Craigslist_23">
+     <property name="geometry">
+      <rect>
+       <x>340</x>
+       <y>110</y>
+       <width>150</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>8</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(199, 199, 199);text-align:left;padding-left:10px;</string>
+     </property>
+     <property name="text">
+      <string>Search by Category...</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normalon>:/craigslist/logo_craigslist.png</normalon>
+      </iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_FB_24">
+     <property name="geometry">
+      <rect>
+       <x>340</x>
+       <y>135</y>
+       <width>150</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>8</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(199, 199, 199);text-align:left;padding-left:10px;</string>
+     </property>
+     <property name="text">
+      <string>Group Members</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normalon>:/facebook/logo_facebook.png</normalon>
+      </iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_Gmap_26">
+     <property name="geometry">
+      <rect>
+       <x>340</x>
+       <y>160</y>
+       <width>150</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>8</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(199, 199, 199);text-align:left;padding-left:10px;</string>
+     </property>
+     <property name="text">
+      <string>Search by keywords...</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normalon>:/gmap/logo_gmap.png</normalon>
+      </iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_Instagram_25">
+     <property name="geometry">
+      <rect>
+       <x>340</x>
+       <y>185</y>
+       <width>150</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>8</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(199, 199, 199);text-align:left;padding-left:10px;</string>
+     </property>
+     <property name="text">
+      <string>Followers of accounts</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normalon>:/instagram/logo_instagram.png</normalon>
+      </iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_YellowPages_29">
+     <property name="geometry">
+      <rect>
+       <x>340</x>
+       <y>210</y>
+       <width>150</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>8</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(199, 199, 199);text-align:left;padding-left:10px;</string>
+     </property>
+     <property name="text">
+      <string>Search by keywords...</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normalon>:/yellowpages/logo_yellowpages.png</normalon>
+      </iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_LBC_27">
+     <property name="geometry">
+      <rect>
+       <x>340</x>
+       <y>235</y>
+       <width>150</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>8</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(199, 199, 199);text-align:left;padding-left:10px;</string>
+     </property>
+     <property name="text">
+      <string>Search by Category...</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normalon>:/leboncoin/logo_leboncoin.png</normalon>
+      </iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_Linkedin_31">
+     <property name="geometry">
+      <rect>
+       <x>340</x>
+       <y>260</y>
+       <width>150</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>8</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(199, 199, 199);text-align:left;padding-left:10px;</string>
+     </property>
+     <property name="text">
+      <string>Search by keywords...</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normalon>:/linkedin/logo_linkedin.png</normalon>
+      </iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_Linkedin_32">
+     <property name="geometry">
+      <rect>
+       <x>340</x>
+       <y>285</y>
+       <width>150</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>8</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(199, 199, 199);text-align:left;padding-left:10px;</string>
+     </property>
+     <property name="text">
+      <string>Group Members</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normalon>:/linkedin/logo_linkedin.png</normalon>
+      </iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_PagesJaunes_28">
+     <property name="geometry">
+      <rect>
+       <x>340</x>
+       <y>310</y>
+       <width>150</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>8</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(199, 199, 199);text-align:left;padding-left:10px;</string>
+     </property>
+     <property name="text">
+      <string>Search by keywords...</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normalon>:/pagesjaunes/logo_pagesjaunes.png</normalon>
+      </iconset>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_cold_messaging_3">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>280</y>
+       <width>141</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>11</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="toolTip">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Before to run PhoneBot, you need to create at least &lt;br/&gt;one campaign in &lt;a href=&quot;https://phonebot.co/dashboard&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;https://phonebot.co/dashboard&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="whatsThis">
+      <string/>
+     </property>
+     <property name="text">
+      <string>Influencers</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_FB_13">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>310</y>
+       <width>150</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>8</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(199, 199, 199);text-align:left;padding-left:10px;</string>
+     </property>
+     <property name="text">
+      <string>Page Admins</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normalon>:/facebook/logo_facebook.png</normalon>
+      </iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_FB_22">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>335</y>
+       <width>150</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>8</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(199, 199, 199);text-align:left;padding-left:10px;</string>
+     </property>
+     <property name="text">
+      <string>Group Admins</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normalon>:/facebook/logo_facebook.png</normalon>
+      </iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_Instagram_21">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>360</y>
+       <width>150</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>8</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(199, 199, 199);text-align:left;padding-left:10px;</string>
+     </property>
+     <property name="text">
+      <string>List or Search by key...</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normalon>:/instagram/logo_instagram.png</normalon>
+      </iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_Linkedin_6">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>385</y>
+       <width>150</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>8</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(199, 199, 199);text-align:left;padding-left:10px;</string>
+     </property>
+     <property name="text">
+      <string>Group Admins</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normalon>:/linkedin/logo_linkedin.png</normalon>
+      </iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_Twitter_5">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>435</y>
+       <width>150</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>8</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(199, 199, 199);text-align:left;padding-left:10px;</string>
+     </property>
+     <property name="text">
+      <string>List or Search by key...</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normalon>:/twitter/logo_twitter.png</normalon>
+      </iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_Youtube_16">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>460</y>
+       <width>150</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>8</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(199, 199, 199);text-align:left;padding-left:10px;</string>
+     </property>
+     <property name="text">
+      <string>List or Search by key...</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normalon>:/youtube/logo_youtube.png</normalon>
+      </iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_Reddit_15">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>410</y>
+       <width>150</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>8</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(199, 199, 199);text-align:left;padding-left:10px;</string>
+     </property>
+     <property name="text">
+      <string>Group Admins</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normalon>:/reddit/logo_reddit.png</normalon>
+      </iconset>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_cold_messaging_4">
+     <property name="geometry">
+      <rect>
+       <x>340</x>
+       <y>350</y>
+       <width>141</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>11</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="toolTip">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Before to run PhoneBot, you need to create at least &lt;br/&gt;one campaign in &lt;a href=&quot;https://phonebot.co/dashboard&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;https://phonebot.co/dashboard&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="whatsThis">
+      <string/>
+     </property>
+     <property name="text">
+      <string>Authority</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_FB_33">
+     <property name="geometry">
+      <rect>
+       <x>340</x>
+       <y>380</y>
+       <width>150</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>8</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(199, 199, 199);text-align:left;padding-left:10px;</string>
+     </property>
+     <property name="text">
+      <string>Add Friends</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normalon>:/facebook/logo_facebook.png</normalon>
+      </iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_Instagram_34">
+     <property name="geometry">
+      <rect>
+       <x>340</x>
+       <y>405</y>
+       <width>150</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>8</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(199, 199, 199);text-align:left;padding-left:10px;</string>
+     </property>
+     <property name="text">
+      <string>Auto Follow</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normalon>:/instagram/logo_instagram.png</normalon>
+      </iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_Twitter_35">
+     <property name="geometry">
+      <rect>
+       <x>340</x>
+       <y>430</y>
+       <width>150</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>8</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(199, 199, 199);text-align:left;padding-left:10px;</string>
+     </property>
+     <property name="text">
+      <string>Auto Follow</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normalon>:/twitter/logo_twitter.png</normalon>
+      </iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_config_3">
+     <property name="geometry">
+      <rect>
+       <x>280</x>
+       <y>110</y>
+       <width>31</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>8</pointsize>
+      </font>
+     </property>
+     <property name="toolTip">
+      <string>Open configuration page of this task (You will need your email and license to log in to your dashboard)</string>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(199, 199, 199);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normalon>:/configure_task/logo_configure_task.png</normalon>
+      </iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_config_4">
+     <property name="geometry">
+      <rect>
+       <x>280</x>
+       <y>135</y>
+       <width>31</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>8</pointsize>
+      </font>
+     </property>
+     <property name="toolTip">
+      <string>Open configuration page of this task (You will need your email and license to log in to your dashboard)</string>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(199, 199, 199);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normalon>:/configure_task/logo_configure_task.png</normalon>
+      </iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_config_9">
+     <property name="geometry">
+      <rect>
+       <x>280</x>
+       <y>160</y>
+       <width>31</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>8</pointsize>
+      </font>
+     </property>
+     <property name="toolTip">
+      <string>Open configuration page of this task (You will need your email and license to log in to your dashboard)</string>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(199, 199, 199);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normalon>:/configure_task/logo_configure_task.png</normalon>
+      </iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_config_7">
+     <property name="geometry">
+      <rect>
+       <x>280</x>
+       <y>185</y>
+       <width>31</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>8</pointsize>
+      </font>
+     </property>
+     <property name="toolTip">
+      <string>Open configuration page of this task (You will need your email and license to log in to your dashboard)</string>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(199, 199, 199);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normalon>:/configure_task/logo_configure_task.png</normalon>
+      </iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_config_8">
+     <property name="geometry">
+      <rect>
+       <x>280</x>
+       <y>210</y>
+       <width>31</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>8</pointsize>
+      </font>
+     </property>
+     <property name="toolTip">
+      <string>Open configuration page of this task (You will need your email and license to log in to your dashboard)</string>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(199, 199, 199);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normalon>:/configure_task/logo_configure_task.png</normalon>
+      </iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_config_20">
+     <property name="geometry">
+      <rect>
+       <x>280</x>
+       <y>235</y>
+       <width>31</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>8</pointsize>
+      </font>
+     </property>
+     <property name="toolTip">
+      <string>Open configuration page of this task (You will need your email and license to log in to your dashboard)</string>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(199, 199, 199);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normalon>:/configure_task/logo_configure_task.png</normalon>
+      </iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_config_23">
+     <property name="geometry">
+      <rect>
+       <x>500</x>
+       <y>110</y>
+       <width>31</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>8</pointsize>
+      </font>
+     </property>
+     <property name="toolTip">
+      <string>Open configuration page of this task (You will need your email and license to log in to your dashboard)</string>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(199, 199, 199);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normalon>:/configure_task/logo_configure_task.png</normalon>
+      </iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_config_25">
+     <property name="geometry">
+      <rect>
+       <x>500</x>
+       <y>185</y>
+       <width>31</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>8</pointsize>
+      </font>
+     </property>
+     <property name="toolTip">
+      <string>Open configuration page of this task (You will need your email and license to log in to your dashboard)</string>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(199, 199, 199);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normalon>:/configure_task/logo_configure_task.png</normalon>
+      </iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_config_24">
+     <property name="geometry">
+      <rect>
+       <x>500</x>
+       <y>135</y>
+       <width>31</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>8</pointsize>
+      </font>
+     </property>
+     <property name="toolTip">
+      <string>Open configuration page of this task (You will need your email and license to log in to your dashboard)</string>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(199, 199, 199);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normalon>:/configure_task/logo_configure_task.png</normalon>
+      </iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_config_27">
+     <property name="geometry">
+      <rect>
+       <x>500</x>
+       <y>235</y>
+       <width>31</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>8</pointsize>
+      </font>
+     </property>
+     <property name="toolTip">
+      <string>Open configuration page of this task (You will need your email and license to log in to your dashboard)</string>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(199, 199, 199);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normalon>:/configure_task/logo_configure_task.png</normalon>
+      </iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_config_29">
+     <property name="geometry">
+      <rect>
+       <x>500</x>
+       <y>210</y>
+       <width>31</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>8</pointsize>
+      </font>
+     </property>
+     <property name="toolTip">
+      <string>Open configuration page of this task (You will need your email and license to log in to your dashboard)</string>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(199, 199, 199);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normalon>:/configure_task/logo_configure_task.png</normalon>
+      </iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_config_26">
+     <property name="geometry">
+      <rect>
+       <x>500</x>
+       <y>160</y>
+       <width>31</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>8</pointsize>
+      </font>
+     </property>
+     <property name="toolTip">
+      <string>Open configuration page of this task (You will need your email and license to log in to your dashboard)</string>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(199, 199, 199);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normalon>:/configure_task/logo_configure_task.png</normalon>
+      </iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_config_13">
+     <property name="geometry">
+      <rect>
+       <x>280</x>
+       <y>310</y>
+       <width>31</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>8</pointsize>
+      </font>
+     </property>
+     <property name="toolTip">
+      <string>Open configuration page of this task (You will need your email and license to log in to your dashboard)</string>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(199, 199, 199);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normalon>:/configure_task/logo_configure_task.png</normalon>
+      </iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_config_6">
+     <property name="geometry">
+      <rect>
+       <x>280</x>
+       <y>385</y>
+       <width>31</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>8</pointsize>
+      </font>
+     </property>
+     <property name="toolTip">
+      <string>Open configuration page of this task (You will need your email and license to log in to your dashboard)</string>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(199, 199, 199);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normalon>:/configure_task/logo_configure_task.png</normalon>
+      </iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_config_22">
+     <property name="geometry">
+      <rect>
+       <x>280</x>
+       <y>335</y>
+       <width>31</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>8</pointsize>
+      </font>
+     </property>
+     <property name="toolTip">
+      <string>Open configuration page of this task (You will need your email and license to log in to your dashboard)</string>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(199, 199, 199);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normalon>:/configure_task/logo_configure_task.png</normalon>
+      </iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_config_5">
+     <property name="geometry">
+      <rect>
+       <x>280</x>
+       <y>435</y>
+       <width>31</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>8</pointsize>
+      </font>
+     </property>
+     <property name="toolTip">
+      <string>Open configuration page of this task (You will need your email and license to log in to your dashboard)</string>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(199, 199, 199);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normalon>:/configure_task/logo_configure_task.png</normalon>
+      </iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_config_15">
+     <property name="geometry">
+      <rect>
+       <x>280</x>
+       <y>410</y>
+       <width>31</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>8</pointsize>
+      </font>
+     </property>
+     <property name="toolTip">
+      <string>Open configuration page of this task (You will need your email and license to log in to your dashboard)</string>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(199, 199, 199);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normalon>:/configure_task/logo_configure_task.png</normalon>
+      </iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_config_21">
+     <property name="geometry">
+      <rect>
+       <x>280</x>
+       <y>360</y>
+       <width>31</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>8</pointsize>
+      </font>
+     </property>
+     <property name="toolTip">
+      <string>Open configuration page of this task (You will need your email and license to log in to your dashboard)</string>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(199, 199, 199);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normalon>:/configure_task/logo_configure_task.png</normalon>
+      </iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_config_16">
+     <property name="geometry">
+      <rect>
+       <x>280</x>
+       <y>460</y>
+       <width>31</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>8</pointsize>
+      </font>
+     </property>
+     <property name="toolTip">
+      <string>Open configuration page of this task (You will need your email and license to log in to your dashboard)</string>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(199, 199, 199);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normalon>:/configure_task/logo_configure_task.png</normalon>
+      </iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_config_28">
+     <property name="geometry">
+      <rect>
+       <x>500</x>
+       <y>310</y>
+       <width>31</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>8</pointsize>
+      </font>
+     </property>
+     <property name="toolTip">
+      <string>Open configuration page of this task (You will need your email and license to log in to your dashboard)</string>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(199, 199, 199);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normalon>:/configure_task/logo_configure_task.png</normalon>
+      </iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_config_32">
+     <property name="geometry">
+      <rect>
+       <x>500</x>
+       <y>285</y>
+       <width>31</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>8</pointsize>
+      </font>
+     </property>
+     <property name="toolTip">
+      <string>Open configuration page of this task (You will need your email and license to log in to your dashboard)</string>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(199, 199, 199);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normalon>:/configure_task/logo_configure_task.png</normalon>
+      </iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_config_31">
+     <property name="geometry">
+      <rect>
+       <x>500</x>
+       <y>260</y>
+       <width>31</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>8</pointsize>
+      </font>
+     </property>
+     <property name="toolTip">
+      <string>Open configuration page of this task (You will need your email and license to log in to your dashboard)</string>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(199, 199, 199);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normalon>:/configure_task/logo_configure_task.png</normalon>
+      </iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_config_35">
+     <property name="geometry">
+      <rect>
+       <x>500</x>
+       <y>430</y>
+       <width>31</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>8</pointsize>
+      </font>
+     </property>
+     <property name="toolTip">
+      <string>Open configuration page of this task (You will need your email and license to log in to your dashboard)</string>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(199, 199, 199);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normalon>:/configure_task/logo_configure_task.png</normalon>
+      </iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_config_34">
+     <property name="geometry">
+      <rect>
+       <x>500</x>
+       <y>405</y>
+       <width>31</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>8</pointsize>
+      </font>
+     </property>
+     <property name="toolTip">
+      <string>Open configuration page of this task (You will need your email and license to log in to your dashboard)</string>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(199, 199, 199);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normalon>:/configure_task/logo_configure_task.png</normalon>
+      </iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_config_33">
+     <property name="geometry">
+      <rect>
+       <x>500</x>
+       <y>380</y>
+       <width>31</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>8</pointsize>
+      </font>
+     </property>
+     <property name="toolTip">
+      <string>Open configuration page of this task (You will need your email and license to log in to your dashboard)</string>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(199, 199, 199);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normalon>:/configure_task/logo_configure_task.png</normalon>
+      </iconset>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_explanation_run_one_task">
+     <property name="geometry">
+      <rect>
+       <x>700</x>
+       <y>430</y>
+       <width>271</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <italic>true</italic>
+      </font>
+     </property>
+     <property name="text">
+      <string>Please click one of the buttons on the left side
+to execute one single task.</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>700</x>
+       <y>270</y>
+       <width>221</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <italic>true</italic>
+      </font>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Go to &lt;a href=&quot;https://phonebot.co/dashboard&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;https://phonebot.co/dashboard&lt;/span&gt;&lt;/a&gt;&lt;br/&gt;to create &amp;amp; edit campaigns&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="textFormat">
+      <enum>Qt::RichText</enum>
+     </property>
+     <property name="openExternalLinks">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_log_run_one_task">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>80</y>
+       <width>591</width>
+       <height>401</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Please wait... PhoneBot is running one task...</string>
+     </property>
+     <property name="textFormat">
+      <enum>Qt::RichText</enum>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_4_see_results_tab_run_one_task">
+     <property name="geometry">
+      <rect>
+       <x>700</x>
+       <y>470</y>
+       <width>161</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>11</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="toolTip">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Once the job is done, click on this button and your results will be available on &lt;a href=&quot;https://phonebot.co/dashboard&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;https://phonebot.co/dashboard&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="text">
+      <string>4. See the results</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="button_Report_2">
+     <property name="geometry">
+      <rect>
+       <x>710</x>
+       <y>500</y>
+       <width>150</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="toolTip">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Open the reporting tool to see your statistics&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(199, 199, 199);</string>
+     </property>
+     <property name="text">
+      <string>See Report</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normalon>:/report/seo-report.png</normalon>
+      </iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="button_OpenLogFile_2">
+     <property name="geometry">
+      <rect>
+       <x>470</x>
+       <y>500</y>
+       <width>181</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="toolTip">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Open the reporting tool to see your statistics&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(199, 199, 199);</string>
+     </property>
+     <property name="text">
+      <string>Download Log files</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normalon>:/log_icon/log_icon.png</normalon>
+      </iconset>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_loading_scan_smartphones_2">
+     <property name="geometry">
+      <rect>
+       <x>-10</x>
+       <y>230</y>
+       <width>400</width>
+       <height>400</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_youtube_2">
+     <property name="geometry">
+      <rect>
+       <x>690</x>
+       <y>30</y>
+       <width>261</width>
+       <height>161</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">image: url(:/youtube_2/video_onboarding_2.jpg);
+border:0;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_loading_searching_tasks">
+     <property name="geometry">
+      <rect>
+       <x>190</x>
+       <y>220</y>
+       <width>128</width>
+       <height>128</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_settings">
+    <attribute name="icon">
+     <iconset resource="config.qrc">
+      <normaloff>:/config/gear.png</normaloff>:/config/gear.png</iconset>
+    </attribute>
+    <attribute name="title">
+     <string>Settings</string>
+    </attribute>
+    <widget class="QLabel" name="label_1_Title">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>20</y>
+       <width>191</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>11</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="toolTip">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;You need a license to use PhoneBot. You can have a free trial license at &lt;a href=&quot;https://phonebot.co&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;https://phonebot.co&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="text">
+      <string>Activate your PhoneBot</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_Email">
+     <property name="geometry">
+      <rect>
+       <x>85</x>
+       <y>54</y>
+       <width>41</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>11</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Email</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_Email">
+     <property name="geometry">
+      <rect>
+       <x>136</x>
+       <y>54</y>
+       <width>291</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>11</pointsize>
+      </font>
+     </property>
+     <property name="placeholderText">
+      <string>i.e: johndoe@gmail.com</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_info1">
+     <property name="geometry">
+      <rect>
+       <x>25</x>
+       <y>119</y>
+       <width>201</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>11</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Your PhoneBot is activated.</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_license">
+     <property name="geometry">
+      <rect>
+       <x>45</x>
+       <y>84</y>
+       <width>81</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>11</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>License Key</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_License">
+     <property name="geometry">
+      <rect>
+       <x>136</x>
+       <y>84</y>
+       <width>291</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>11</pointsize>
+      </font>
+     </property>
+     <property name="placeholderText">
+      <string>i.e: gold89DE-B4JI-HQ3E-D8UT</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="button_SaveLicense">
+     <property name="geometry">
+      <rect>
+       <x>265</x>
+       <y>114</y>
+       <width>91</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>11</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(199, 199 199);</string>
+     </property>
+     <property name="text">
+      <string>Save</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normalon>:/save/save.png</normalon>
+      </iconset>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_see_license">
+     <property name="geometry">
+      <rect>
+       <x>35</x>
+       <y>150</y>
+       <width>151</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>8</pointsize>
+       <italic>true</italic>
+      </font>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;a href=&quot;https://phonebot.co/my-account/view-license-keys/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;See my license&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+     <property name="openExternalLinks">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_android">
+     <property name="geometry">
+      <rect>
+       <x>640</x>
+       <y>333</y>
+       <width>341</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>8</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>No</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+     </property>
+     <property name="openExternalLinks">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_title_appium">
+     <property name="geometry">
+      <rect>
+       <x>559</x>
+       <y>350</y>
+       <width>61</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>11</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Appium:</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_tesseract">
+     <property name="geometry">
+      <rect>
+       <x>640</x>
+       <y>313</y>
+       <width>341</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>8</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>No</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+     </property>
+     <property name="openExternalLinks">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_title_android">
+     <property name="geometry">
+      <rect>
+       <x>560</x>
+       <y>330</y>
+       <width>61</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>11</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Android:</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_java">
+     <property name="geometry">
+      <rect>
+       <x>640</x>
+       <y>233</y>
+       <width>341</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>8</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>No</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+     </property>
+     <property name="openExternalLinks">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_title_tesseract">
+     <property name="geometry">
+      <rect>
+       <x>550</x>
+       <y>310</y>
+       <width>71</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>11</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Tesseract:</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_title_buildtools">
+     <property name="geometry">
+      <rect>
+       <x>539</x>
+       <y>290</y>
+       <width>81</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>11</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Build-Tools:</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_title_java">
+     <property name="geometry">
+      <rect>
+       <x>519</x>
+       <y>230</y>
+       <width>101</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>11</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Java Runtime:</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_title_sdk">
+     <property name="geometry">
+      <rect>
+       <x>530</x>
+       <y>270</y>
+       <width>91</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>11</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>SDKManager:</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_appium">
+     <property name="geometry">
+      <rect>
+       <x>640</x>
+       <y>353</y>
+       <width>341</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>8</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>No</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+     </property>
+     <property name="openExternalLinks">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_title_node">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>559</x>
+       <y>250</y>
+       <width>61</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>11</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>NodeJS:</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_2_Title">
+     <property name="geometry">
+      <rect>
+       <x>530</x>
+       <y>200</y>
+       <width>371</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>11</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Smartphone Automation requires these software&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_build_tools">
+     <property name="geometry">
+      <rect>
+       <x>640</x>
+       <y>293</y>
+       <width>341</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>8</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>No</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+     </property>
+     <property name="openExternalLinks">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_node">
+     <property name="geometry">
+      <rect>
+       <x>640</x>
+       <y>253</y>
+       <width>341</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>8</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>No</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+     </property>
+     <property name="openExternalLinks">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_sdk">
+     <property name="geometry">
+      <rect>
+       <x>640</x>
+       <y>273</y>
+       <width>341</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>8</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>No</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+     </property>
+     <property name="openExternalLinks">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="button_Install_Smartphone_Automation">
+     <property name="geometry">
+      <rect>
+       <x>600</x>
+       <y>380</y>
+       <width>281</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="toolTip">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Open the reporting tool to see your statistics&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(199, 199, 199);</string>
+     </property>
+     <property name="text">
+      <string>Install SmartPhone Automation</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normalon>:/smartphone/smartphone.png</normalon>
+      </iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>16</width>
+       <height>16</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_info2">
+     <property name="geometry">
+      <rect>
+       <x>520</x>
+       <y>430</y>
+       <width>451</width>
+       <height>101</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>The softwares are correctly installed.</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignHCenter|Qt::AlignTop</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_enable_usb">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>495</y>
+       <width>291</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>How to enable USB debug on my Smartphone?</string>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_info3">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>470</y>
+       <width>401</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>PhoneBot detected smartphones.</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="button_ScanSmartphones">
+     <property name="geometry">
+      <rect>
+       <x>340</x>
+       <y>490</y>
+       <width>91</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>11</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(199, 199 199);</string>
+     </property>
+     <property name="text">
+      <string>Scan</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normalon>:/scan/search.png</normalon>
+      </iconset>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_3_Title">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>206</y>
+       <width>231</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>11</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Connect your Smartphone(s)</string>
+     </property>
+    </widget>
+    <widget class="QPlainTextEdit" name="plainTextEdit_Smartphones">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>240</y>
+       <width>411</width>
+       <height>211</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>9</pointsize>
+      </font>
+     </property>
+     <property name="plainText">
+      <string/>
+     </property>
+    </widget>
+    <widget class="Line" name="line">
+     <property name="geometry">
+      <rect>
+       <x>480</x>
+       <y>20</y>
+       <width>20</width>
+       <height>521</height>
+      </rect>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_loading_settings">
+     <property name="geometry">
+      <rect>
+       <x>420</x>
+       <y>30</y>
+       <width>128</width>
+       <height>128</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_loading_scan_smartphones">
+     <property name="geometry">
+      <rect>
+       <x>300</x>
+       <y>170</y>
+       <width>400</width>
+       <height>400</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_loading_txt_settings">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>320</y>
+       <width>680</width>
+       <height>326</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_info_bubble_7">
+     <property name="geometry">
+      <rect>
+       <x>210</x>
+       <y>20</y>
+       <width>31</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="toolTip">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;You need a license to use PhoneBot. You can have a free trial license at &lt;a href=&quot;https://phonebot.co&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;https://phonebot.co&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="info.qrc">:/info/information.png</pixmap>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_info_bubble_8">
+     <property name="geometry">
+      <rect>
+       <x>900</x>
+       <y>200</y>
+       <width>31</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="toolTip">
+      <string>Smartphone Automation is a highly sophisticated process. &lt;br&gt;Your computer needs to install some software in order to be able to automate smartphones.</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="info.qrc">:/info/information.png</pixmap>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_youtube_3">
+     <property name="geometry">
+      <rect>
+       <x>630</x>
+       <y>20</y>
+       <width>311</width>
+       <height>151</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">image: url(:/youtube_3/video_onboarding_3.jpg);
+border:0;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <zorder>label_Email</zorder>
+    <zorder>lineEdit_Email</zorder>
+    <zorder>label_info1</zorder>
+    <zorder>label_license</zorder>
+    <zorder>lineEdit_License</zorder>
+    <zorder>button_SaveLicense</zorder>
+    <zorder>label_see_license</zorder>
+    <zorder>label_1_Title</zorder>
+    <zorder>label_android</zorder>
+    <zorder>label_title_appium</zorder>
+    <zorder>label_tesseract</zorder>
+    <zorder>label_title_android</zorder>
+    <zorder>label_java</zorder>
+    <zorder>label_title_tesseract</zorder>
+    <zorder>label_title_buildtools</zorder>
+    <zorder>label_title_java</zorder>
+    <zorder>label_title_sdk</zorder>
+    <zorder>label_appium</zorder>
+    <zorder>label_title_node</zorder>
+    <zorder>label_2_Title</zorder>
+    <zorder>label_build_tools</zorder>
+    <zorder>label_node</zorder>
+    <zorder>label_sdk</zorder>
+    <zorder>button_Install_Smartphone_Automation</zorder>
+    <zorder>label_info2</zorder>
+    <zorder>label_enable_usb</zorder>
+    <zorder>label_info3</zorder>
+    <zorder>button_ScanSmartphones</zorder>
+    <zorder>label_3_Title</zorder>
+    <zorder>plainTextEdit_Smartphones</zorder>
+    <zorder>line</zorder>
+    <zorder>label_loading_settings</zorder>
+    <zorder>label_loading_scan_smartphones</zorder>
+    <zorder>label_loading_txt_settings</zorder>
+    <zorder>label_info_bubble_7</zorder>
+    <zorder>label_info_bubble_8</zorder>
+    <zorder>pushButton_youtube_3</zorder>
+   </widget>
+   <widget class="QWidget" name="tab_help">
+    <attribute name="icon">
+     <iconset resource="support.qrc">
+      <normaloff>:/support/question.png</normaloff>:/support/question.png</iconset>
+    </attribute>
+    <attribute name="title">
+     <string>Help/Support</string>
+    </attribute>
+    <widget class="QPushButton" name="button_Doc">
+     <property name="geometry">
+      <rect>
+       <x>510</x>
+       <y>150</y>
+       <width>150</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="toolTip">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Open the documentation guide (very helpful if it is your first time using PhoneBot)&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(199, 199, 199);</string>
+     </property>
+     <property name="text">
+      <string>Read the Doc</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normalon>:/doc/document.png</normalon>
+      </iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="button_Videos">
+     <property name="geometry">
+      <rect>
+       <x>510</x>
+       <y>190</y>
+       <width>150</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="toolTip">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Open the Videos knowldge base to understand how to configure PhoneBot&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(199, 199, 199);</string>
+     </property>
+     <property name="text">
+      <string>Videos Knowledge</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normalon>:/whatch_videos/play.png</normalon>
+      </iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="button_Tutorials">
+     <property name="geometry">
+      <rect>
+       <x>510</x>
+       <y>230</y>
+       <width>191</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="toolTip">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Open the Videos knowldge base to understand how to configure PhoneBot&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(199, 199, 199);</string>
+     </property>
+     <property name="text">
+      <string>Tutorials</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normalon>:/whatch_videos/play.png</normalon>
+      </iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="button_Support">
+     <property name="geometry">
+      <rect>
+       <x>510</x>
+       <y>270</y>
+       <width>191</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="toolTip">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Open the support page to get help&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(199, 199, 199);</string>
+     </property>
+     <property name="text">
+      <string>Contact Support</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normalon>:/support/question.png</normalon>
+      </iconset>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_contact_email">
+     <property name="geometry">
+      <rect>
+       <x>510</x>
+       <y>370</y>
+       <width>151</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>8</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Email: support@phonebot.co</string>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_logo_telegram">
+     <property name="geometry">
+      <rect>
+       <x>510</x>
+       <y>320</y>
+       <width>21</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="telegram.qrc">:/telegram/telegram.png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+
+    <widget class="QLabel" name="label_logo_tiktok">
+     <property name="geometry">
+      <rect>
+       <x>510</x>
+       <y>320</y>
+       <width>21</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="tiktok.qrc">:/tiktok/tiktok.png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+
+
+
+    <widget class="QLabel" name="label_logo_upwork">
+     <property name="geometry">
+      <rect>
+       <x>510</x>
+       <y>320</y>
+       <width>21</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="upwork.qrc">:/upwork/upwork.png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+
+
+
+    <widget class="QLabel" name="label_logo_snapchat">
+     <property name="geometry">
+      <rect>
+       <x>510</x>
+       <y>320</y>
+       <width>21</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="snapchat.qrc">:/snapchat/snapchat.png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+
+
+
+    <widget class="QLabel" name="label_logo_freelancer">
+     <property name="geometry">
+      <rect>
+       <x>510</x>
+       <y>320</y>
+       <width>21</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="freelancer.qrc">:/freelancer/freelancer.png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+
+
+    <widget class="QLabel" name="label_logo_sms">
+     <property name="geometry">
+      <rect>
+       <x>510</x>
+       <y>320</y>
+       <width>21</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="sms.qrc">:/Sms/sms.png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+
+
+
+    <widget class="QLabel" name="label_join_community">
+     <property name="geometry">
+      <rect>
+       <x>540</x>
+       <y>310</y>
+       <width>361</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>8</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Join our community on Telegram: https://bit.ly/phonebot</string>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_phone">
+     <property name="geometry">
+      <rect>
+       <x>510</x>
+       <y>340</y>
+       <width>271</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>8</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Phone: +33(0)7 67 37 17 15 (Whatsapp,Telegram)</string>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_youtube_4">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>150</y>
+       <width>391</width>
+       <height>241</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">image: url(:/youtube_4/video_onboarding_4.jpg);
+border:0;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+
+ </resources>
+</ui>

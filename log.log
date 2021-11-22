@@ -1,0 +1,132 @@
+17319:2021-10-04 15:38:56,337:INFO:__mymodules__:CheckUpdates:Last Version of PhoneBot : 0.002
+17319:2021-10-04 15:38:56,337:INFO:__mymodules__:CheckUpdates:now_version:0003 VS 0002 : new_version
+17319:2021-10-04 15:38:56,337:INFO:__mymodules__:CheckUpdates:'Software Update - ', 'No Updates are Available.'
+17319:2021-10-04 15:38:56,337:INFO:__mymodules__:MakeConfiginifile:========================================= Start MakeConfiginifile default ================================================= 
+17319:2021-10-04 15:38:56,338:INFO:__PhoneBot__:<module>:PATHDB : db.db
+17319:2021-10-04 15:38:56,338:INFO:__PhoneBot__:<module>:PhoneBot found your database 'db.db'. It will not create a new one.
+17319:2021-10-04 15:38:56,340:ERROR:__mymodules__:AddColumn:duplicate column name: java_ok -> SQLITE -> PhoneBot couldn't add the missing column java_ok in table settings.
+17319:2021-10-04 15:38:56,341:ERROR:__mymodules__:AddColumn:duplicate column name: node_ok -> SQLITE -> PhoneBot couldn't add the missing column node_ok in table settings.
+17319:2021-10-04 15:38:56,341:ERROR:__mymodules__:AddColumn:duplicate column name: android_ok -> SQLITE -> PhoneBot couldn't add the missing column android_ok in table settings.
+17319:2021-10-04 15:38:56,342:ERROR:__mymodules__:AddColumn:duplicate column name: appium_ok -> SQLITE -> PhoneBot couldn't add the missing column appium_ok in table settings.
+17319:2021-10-04 15:38:56,342:ERROR:__mymodules__:AddColumn:duplicate column name: tesseract_ok -> SQLITE -> PhoneBot couldn't add the missing column tesseract_ok in table settings.
+17319:2021-10-04 15:38:56,343:ERROR:__mymodules__:AddColumn:duplicate column name: sdkmanager_ok -> SQLITE -> PhoneBot couldn't add the missing column sdkmanager_ok in table settings.
+17319:2021-10-04 15:38:56,343:ERROR:__mymodules__:AddColumn:duplicate column name: build_tools_ok -> SQLITE -> PhoneBot couldn't add the missing column build_tools_ok in table settings.
+17319:2021-10-04 15:38:56,344:ERROR:__mymodules__:AddColumn:duplicate column name: user_id -> SQLITE -> PhoneBot couldn't add the missing column user_id in table settings.
+17319:2021-10-04 15:38:56,344:ERROR:__mymodules__:AddColumn:duplicate column name: product_id -> SQLITE -> PhoneBot couldn't add the missing column product_id in table settings.
+17319:2021-10-04 15:38:56,345:ERROR:__mymodules__:AddColumn:duplicate column name: subscription_id -> SQLITE -> PhoneBot couldn't add the missing column subscription_id in table settings.
+17319:2021-10-04 15:38:56,345:ERROR:__mymodules__:AddColumn:duplicate column name: missing_packages -> SQLITE -> PhoneBot couldn't add the missing column missing_packages in table smartphones.
+17319:2021-10-04 15:38:56,346:ERROR:__mymodules__:AddColumn:duplicate column name: tracking_code_affiliate -> SQLITE -> PhoneBot couldn't add the missing column tracking_code_affiliate in table settings.
+17319:2021-10-04 15:38:56,346:ERROR:__mymodules__:AddColumn:duplicate column name: coupon_affiliate -> SQLITE -> PhoneBot couldn't add the missing column coupon_affiliate in table settings.
+17319:2021-10-04 15:38:56,347:ERROR:__mymodules__:AddColumn:duplicate column name: url_affiliate -> SQLITE -> PhoneBot couldn't add the missing column url_affiliate in table settings.
+17319:2021-10-04 15:38:56,348:ERROR:__mymodules__:AddColumn:duplicate column name: user_email -> SQLITE -> PhoneBot couldn't add the missing column user_email in table settings.
+17319:2021-10-04 15:38:56,349:ERROR:__mymodules__:AddColumn:duplicate column name: license -> SQLITE -> PhoneBot couldn't add the missing column license in table settings.
+17319:2021-10-04 15:38:56,349:ERROR:__mymodules__:AddColumn:duplicate column name: id_pc -> SQLITE -> PhoneBot couldn't add the missing column id_pc in table social_accounts.
+17319:2021-10-04 15:38:56,350:ERROR:__mymodules__:AddColumn:duplicate column name: password -> SQLITE -> PhoneBot couldn't add the missing column password in table social_accounts.
+17319:2021-10-04 15:38:56,351:ERROR:__mymodules__:AddColumn:duplicate column name: browser -> SQLITE -> PhoneBot couldn't add the missing column browser in table social_accounts.
+17319:2021-10-04 15:38:56,351:ERROR:__mymodules__:AddColumn:duplicate column name: status -> SQLITE -> PhoneBot couldn't add the missing column status in table social_accounts.
+17319:2021-10-04 15:38:56,352:ERROR:__mymodules__:AddColumn:duplicate column name: id_task_user -> SQLITE -> PhoneBot couldn't add the missing column id_task_user in table contacts.
+17319:2021-10-04 15:38:56,353:ERROR:__mymodules__:AddColumn:duplicate column name: id_task_user -> SQLITE -> PhoneBot couldn't add the missing column id_task_user in table actions.
+17319:2021-10-04 15:38:56,354:ERROR:__mymodules__:AddColumn:duplicate column name: replied -> SQLITE -> PhoneBot couldn't add the missing column replied in table contacts.
+17319:2021-10-04 15:38:56,354:ERROR:__mymodules__:AddColumn:duplicate column name: replied_invitation -> SQLITE -> PhoneBot couldn't add the missing column replied_invitation in table contacts.
+17319:2021-10-04 15:38:56,356:ERROR:__mymodules__:AddColumn:duplicate column name: replied -> SQLITE -> PhoneBot couldn't add the missing column replied in table actions.
+17319:2021-10-04 15:38:56,357:ERROR:__mymodules__:AddColumn:duplicate column name: replied_invitation -> SQLITE -> PhoneBot couldn't add the missing column replied_invitation in table actions.
+17319:2021-10-04 15:38:56,358:ERROR:__mymodules__:AddColumn:duplicate column name: id_message -> SQLITE -> PhoneBot couldn't add the missing column id_message in table actions.
+17319:2021-10-04 15:38:56,359:ERROR:__mymodules__:AddColumn:duplicate column name: date_created -> SQLITE -> PhoneBot couldn't add the missing column date_created in table actions.
+17319:2021-10-04 15:38:56,360:ERROR:__mymodules__:AddColumn:duplicate column name: date_created -> SQLITE -> PhoneBot couldn't add the missing column date_created in table contacts.
+17319:2021-10-04 15:38:56,360:ERROR:__mymodules__:AddColumn:duplicate column name: date_update -> SQLITE -> PhoneBot couldn't add the missing column date_update in table actions.
+17319:2021-10-04 15:38:56,361:ERROR:__mymodules__:AddColumn:duplicate column name: date_update -> SQLITE -> PhoneBot couldn't add the missing column date_update in table contacts.
+17319:2021-10-04 15:38:56,362:ERROR:__mymodules__:AddColumn:duplicate column name: smartphone_allowed -> SQLITE -> PhoneBot couldn't add the missing column smartphone_allowed in table tasks_user.
+17319:2021-10-04 15:38:56,362:ERROR:__mymodules__:AddColumn:duplicate column name: computer_allowed -> SQLITE -> PhoneBot couldn't add the missing column computer_allowed in table tasks_user.
+17319:2021-10-04 15:38:57,091:ERROR:__mymodules__:AddColumn:1060 (42S21): Duplicate column name 'id_task_user' -> MYSQL -> PhoneBot couldn't add the missing column id_task_user in table W551je5v_phonebot_actions.
+17319:2021-10-04 15:38:57,676:ERROR:__mymodules__:AddColumn:1060 (42S21): Duplicate column name 'id_task_user' -> MYSQL -> PhoneBot couldn't add the missing column id_task_user in table W551je5v_phonebot_actions.
+17319:2021-10-04 15:38:58,166:ERROR:__mymodules__:AddColumn:1060 (42S21): Duplicate column name 'replied' -> MYSQL -> PhoneBot couldn't add the missing column replied in table W551je5v_phonebot_contacts.
+17319:2021-10-04 15:38:58,652:ERROR:__mymodules__:AddColumn:1060 (42S21): Duplicate column name 'replied_invitation' -> MYSQL -> PhoneBot couldn't add the missing column replied_invitation in table W551je5v_phonebot_contacts.
+17319:2021-10-04 15:38:59,259:ERROR:__mymodules__:AddColumn:1060 (42S21): Duplicate column name 'replied' -> MYSQL -> PhoneBot couldn't add the missing column replied in table W551je5v_phonebot_actions.
+17319:2021-10-04 15:38:59,726:ERROR:__mymodules__:AddColumn:1060 (42S21): Duplicate column name 'replied_invitation' -> MYSQL -> PhoneBot couldn't add the missing column replied_invitation in table W551je5v_phonebot_actions.
+17319:2021-10-04 15:39:00,300:ERROR:__mymodules__:AddColumn:1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'STRING' at line 1 -> MYSQL -> PhoneBot couldn't add the missing column id_message in table W551je5v_phonebot_actions.
+17319:2021-10-04 15:39:00,812:ERROR:__mymodules__:AddColumn:1060 (42S21): Duplicate column name 'date_created' -> MYSQL -> PhoneBot couldn't add the missing column date_created in table W551je5v_phonebot_actions.
+17319:2021-10-04 15:39:01,418:ERROR:__mymodules__:AddColumn:1060 (42S21): Duplicate column name 'date_created' -> MYSQL -> PhoneBot couldn't add the missing column date_created in table W551je5v_phonebot_contacts.
+17319:2021-10-04 15:39:02,019:ERROR:__mymodules__:AddColumn:1060 (42S21): Duplicate column name 'date_update' -> MYSQL -> PhoneBot couldn't add the missing column date_update in table W551je5v_phonebot_actions.
+17319:2021-10-04 15:39:02,713:ERROR:__mymodules__:AddColumn:1060 (42S21): Duplicate column name 'date_update' -> MYSQL -> PhoneBot couldn't add the missing column date_update in table W551je5v_phonebot_contacts.
+17319:2021-10-04 15:39:03,247:ERROR:__mymodules__:AddMissingColumnstoMysql:1060 (42S21): Duplicate column name 'id' -> MYSQL -> PhoneBot couldn't add the missing column id in table actions.
+17319:2021-10-04 15:39:03,313:ERROR:__mymodules__:AddMissingColumnstoMysql:1060 (42S21): Duplicate column name 'platform' -> MYSQL -> PhoneBot couldn't add the missing column platform in table actions.
+17319:2021-10-04 15:39:03,386:ERROR:__mymodules__:AddMissingColumnstoMysql:1060 (42S21): Duplicate column name 'type_action' -> MYSQL -> PhoneBot couldn't add the missing column type_action in table actions.
+17319:2021-10-04 15:39:03,478:ERROR:__mymodules__:AddMissingColumnstoMysql:1060 (42S21): Duplicate column name 'date' -> MYSQL -> PhoneBot couldn't add the missing column date in table actions.
+17319:2021-10-04 15:39:03,536:ERROR:__mymodules__:AddMissingColumnstoMysql:1060 (42S21): Duplicate column name 'message' -> MYSQL -> PhoneBot couldn't add the missing column message in table actions.
+17319:2021-10-04 15:39:03,624:ERROR:__mymodules__:AddMissingColumnstoMysql:1060 (42S21): Duplicate column name 'id_smartphone' -> MYSQL -> PhoneBot couldn't add the missing column id_smartphone in table actions.
+17319:2021-10-04 15:39:03,698:ERROR:__mymodules__:AddMissingColumnstoMysql:1060 (42S21): Duplicate column name 'id_social_account' -> MYSQL -> PhoneBot couldn't add the missing column id_social_account in table actions.
+17319:2021-10-04 15:39:03,777:ERROR:__mymodules__:AddMissingColumnstoMysql:1060 (42S21): Duplicate column name 'id_contact' -> MYSQL -> PhoneBot couldn't add the missing column id_contact in table actions.
+17319:2021-10-04 15:39:03,827:ERROR:__mymodules__:AddMissingColumnstoMysql:1060 (42S21): Duplicate column name 'picture' -> MYSQL -> PhoneBot couldn't add the missing column picture in table actions.
+17319:2021-10-04 15:39:03,907:ERROR:__mymodules__:AddMissingColumnstoMysql:1060 (42S21): Duplicate column name 'fb_group_name' -> MYSQL -> PhoneBot couldn't add the missing column fb_group_name in table actions.
+17319:2021-10-04 15:39:03,974:ERROR:__mymodules__:AddMissingColumnstoMysql:1060 (42S21): Duplicate column name 'fb_group_url' -> MYSQL -> PhoneBot couldn't add the missing column fb_group_url in table actions.
+17319:2021-10-04 15:39:04,054:ERROR:__mymodules__:AddMissingColumnstoMysql:1060 (42S21): Duplicate column name 'source' -> MYSQL -> PhoneBot couldn't add the missing column source in table actions.
+17319:2021-10-04 15:39:04,148:ERROR:__mymodules__:AddMissingColumnstoMysql:1060 (42S21): Duplicate column name 'id_task_user' -> MYSQL -> PhoneBot couldn't add the missing column id_task_user in table actions.
+17319:2021-10-04 15:39:04,213:ERROR:__mymodules__:AddMissingColumnstoMysql:1060 (42S21): Duplicate column name 'replied' -> MYSQL -> PhoneBot couldn't add the missing column replied in table actions.
+17319:2021-10-04 15:39:04,266:ERROR:__mymodules__:AddMissingColumnstoMysql:1060 (42S21): Duplicate column name 'replied_invitation' -> MYSQL -> PhoneBot couldn't add the missing column replied_invitation in table actions.
+17319:2021-10-04 15:39:04,353:ERROR:__mymodules__:AddMissingColumnstoMysql:1060 (42S21): Duplicate column name 'id_message' -> MYSQL -> PhoneBot couldn't add the missing column id_message in table actions.
+17319:2021-10-04 15:39:04,417:ERROR:__mymodules__:AddMissingColumnstoMysql:1060 (42S21): Duplicate column name 'date_created' -> MYSQL -> PhoneBot couldn't add the missing column date_created in table actions.
+17319:2021-10-04 15:39:04,491:ERROR:__mymodules__:AddMissingColumnstoMysql:1060 (42S21): Duplicate column name 'date_update' -> MYSQL -> PhoneBot couldn't add the missing column date_update in table actions.
+17319:2021-10-04 15:39:04,580:ERROR:__mymodules__:AddMissingColumnstoMysql:1060 (42S21): Duplicate column name 'id' -> MYSQL -> PhoneBot couldn't add the missing column id in table contacts.
+17319:2021-10-04 15:39:04,771:ERROR:__mymodules__:AddMissingColumnstoMysql:1060 (42S21): Duplicate column name 'platform' -> MYSQL -> PhoneBot couldn't add the missing column platform in table contacts.
+17319:2021-10-04 15:39:04,847:ERROR:__mymodules__:AddMissingColumnstoMysql:1060 (42S21): Duplicate column name 'type' -> MYSQL -> PhoneBot couldn't add the missing column type in table contacts.
+17319:2021-10-04 15:39:04,895:ERROR:__mymodules__:AddMissingColumnstoMysql:1060 (42S21): Duplicate column name 'username' -> MYSQL -> PhoneBot couldn't add the missing column username in table contacts.
+17319:2021-10-04 15:39:04,978:ERROR:__mymodules__:AddMissingColumnstoMysql:1060 (42S21): Duplicate column name 'business_name' -> MYSQL -> PhoneBot couldn't add the missing column business_name in table contacts.
+17319:2021-10-04 15:39:05,044:ERROR:__mymodules__:AddMissingColumnstoMysql:1060 (42S21): Duplicate column name 'first_name' -> MYSQL -> PhoneBot couldn't add the missing column first_name in table contacts.
+17319:2021-10-04 15:39:05,104:ERROR:__mymodules__:AddMissingColumnstoMysql:1060 (42S21): Duplicate column name 'last_name' -> MYSQL -> PhoneBot couldn't add the missing column last_name in table contacts.
+17319:2021-10-04 15:39:05,178:ERROR:__mymodules__:AddMissingColumnstoMysql:1060 (42S21): Duplicate column name 'address' -> MYSQL -> PhoneBot couldn't add the missing column address in table contacts.
+17319:2021-10-04 15:39:05,259:ERROR:__mymodules__:AddMissingColumnstoMysql:1060 (42S21): Duplicate column name 'zip' -> MYSQL -> PhoneBot couldn't add the missing column zip in table contacts.
+17319:2021-10-04 15:39:05,333:ERROR:__mymodules__:AddMissingColumnstoMysql:1060 (42S21): Duplicate column name 'city' -> MYSQL -> PhoneBot couldn't add the missing column city in table contacts.
+17319:2021-10-04 15:39:05,417:ERROR:__mymodules__:AddMissingColumnstoMysql:1060 (42S21): Duplicate column name 'state' -> MYSQL -> PhoneBot couldn't add the missing column state in table contacts.
+17319:2021-10-04 15:39:05,489:ERROR:__mymodules__:AddMissingColumnstoMysql:1060 (42S21): Duplicate column name 'country' -> MYSQL -> PhoneBot couldn't add the missing column country in table contacts.
+17319:2021-10-04 15:39:05,552:ERROR:__mymodules__:AddMissingColumnstoMysql:1060 (42S21): Duplicate column name 'email' -> MYSQL -> PhoneBot couldn't add the missing column email in table contacts.
+17319:2021-10-04 15:39:05,613:ERROR:__mymodules__:AddMissingColumnstoMysql:1060 (42S21): Duplicate column name 'email_perso' -> MYSQL -> PhoneBot couldn't add the missing column email_perso in table contacts.
+17319:2021-10-04 15:39:05,686:ERROR:__mymodules__:AddMissingColumnstoMysql:1060 (42S21): Duplicate column name 'email_pro' -> MYSQL -> PhoneBot couldn't add the missing column email_pro in table contacts.
+17319:2021-10-04 15:39:05,740:ERROR:__mymodules__:AddMissingColumnstoMysql:1060 (42S21): Duplicate column name 'phone' -> MYSQL -> PhoneBot couldn't add the missing column phone in table contacts.
+17319:2021-10-04 15:39:05,811:ERROR:__mymodules__:AddMissingColumnstoMysql:1060 (42S21): Duplicate column name 'website' -> MYSQL -> PhoneBot couldn't add the missing column website in table contacts.
+17319:2021-10-04 15:39:05,868:ERROR:__mymodules__:AddMissingColumnstoMysql:1060 (42S21): Duplicate column name 'url_profile' -> MYSQL -> PhoneBot couldn't add the missing column url_profile in table contacts.
+17319:2021-10-04 15:39:05,931:ERROR:__mymodules__:AddMissingColumnstoMysql:1060 (42S21): Duplicate column name 'followed' -> MYSQL -> PhoneBot couldn't add the missing column followed in table contacts.
+17319:2021-10-04 15:39:05,983:ERROR:__mymodules__:AddMissingColumnstoMysql:1060 (42S21): Duplicate column name 'unfollowed' -> MYSQL -> PhoneBot couldn't add the missing column unfollowed in table contacts.
+17319:2021-10-04 15:39:06,048:ERROR:__mymodules__:AddMissingColumnstoMysql:1060 (42S21): Duplicate column name 'insta_header_full_name' -> MYSQL -> PhoneBot couldn't add the missing column insta_header_full_name in table contacts.
+17319:2021-10-04 15:39:06,153:ERROR:__mymodules__:AddMissingColumnstoMysql:1060 (42S21): Duplicate column name 'insta_header_biz_category' -> MYSQL -> PhoneBot couldn't add the missing column insta_header_biz_category in table contacts.
+17319:2021-10-04 15:39:06,255:ERROR:__mymodules__:AddMissingColumnstoMysql:1060 (42S21): Duplicate column name 'insta_bio' -> MYSQL -> PhoneBot couldn't add the missing column insta_bio in table contacts.
+17319:2021-10-04 15:39:06,334:ERROR:__mymodules__:AddMissingColumnstoMysql:1060 (42S21): Duplicate column name 'insta_website' -> MYSQL -> PhoneBot couldn't add the missing column insta_website in table contacts.
+17319:2021-10-04 15:39:06,411:ERROR:__mymodules__:AddMissingColumnstoMysql:1060 (42S21): Duplicate column name 'twitter' -> MYSQL -> PhoneBot couldn't add the missing column twitter in table contacts.
+17319:2021-10-04 15:39:06,462:ERROR:__mymodules__:AddMissingColumnstoMysql:1060 (42S21): Duplicate column name 'url_facebook' -> MYSQL -> PhoneBot couldn't add the missing column url_facebook in table contacts.
+17319:2021-10-04 15:39:06,533:ERROR:__mymodules__:AddMissingColumnstoMysql:1060 (42S21): Duplicate column name 'url_linkedin' -> MYSQL -> PhoneBot couldn't add the missing column url_linkedin in table contacts.
+17319:2021-10-04 15:39:06,614:ERROR:__mymodules__:AddMissingColumnstoMysql:1060 (42S21): Duplicate column name 'facebook_headline' -> MYSQL -> PhoneBot couldn't add the missing column facebook_headline in table contacts.
+17319:2021-10-04 15:39:06,676:ERROR:__mymodules__:AddMissingColumnstoMysql:1060 (42S21): Duplicate column name 'facebook_headline_group' -> MYSQL -> PhoneBot couldn't add the missing column facebook_headline_group in table contacts.
+17319:2021-10-04 15:39:06,752:ERROR:__mymodules__:AddMissingColumnstoMysql:1060 (42S21): Duplicate column name 'twitter_bio' -> MYSQL -> PhoneBot couldn't add the missing column twitter_bio in table contacts.
+17319:2021-10-04 15:39:06,813:ERROR:__mymodules__:AddMissingColumnstoMysql:1060 (42S21): Duplicate column name 'linkedin_bio' -> MYSQL -> PhoneBot couldn't add the missing column linkedin_bio in table contacts.
+17319:2021-10-04 15:39:06,878:ERROR:__mymodules__:AddMissingColumnstoMysql:1060 (42S21): Duplicate column name 'url_twitter' -> MYSQL -> PhoneBot couldn't add the missing column url_twitter in table contacts.
+17319:2021-10-04 15:39:06,931:ERROR:__mymodules__:AddMissingColumnstoMysql:1060 (42S21): Duplicate column name 'job' -> MYSQL -> PhoneBot couldn't add the missing column job in table contacts.
+17319:2021-10-04 15:39:07,006:ERROR:__mymodules__:AddMissingColumnstoMysql:1060 (42S21): Duplicate column name 'gender' -> MYSQL -> PhoneBot couldn't add the missing column gender in table contacts.
+17319:2021-10-04 15:39:07,092:ERROR:__mymodules__:AddMissingColumnstoMysql:1060 (42S21): Duplicate column name 'instagram' -> MYSQL -> PhoneBot couldn't add the missing column instagram in table contacts.
+17319:2021-10-04 15:39:07,151:ERROR:__mymodules__:AddMissingColumnstoMysql:1060 (42S21): Duplicate column name 'facebook_group' -> MYSQL -> PhoneBot couldn't add the missing column facebook_group in table contacts.
+17319:2021-10-04 15:39:07,214:ERROR:__mymodules__:AddMissingColumnstoMysql:1060 (42S21): Duplicate column name 'pinterest' -> MYSQL -> PhoneBot couldn't add the missing column pinterest in table contacts.
+17319:2021-10-04 15:39:07,270:ERROR:__mymodules__:AddMissingColumnstoMysql:1060 (42S21): Duplicate column name 'business_category' -> MYSQL -> PhoneBot couldn't add the missing column business_category in table contacts.
+17319:2021-10-04 15:39:07,352:ERROR:__mymodules__:AddMissingColumnstoMysql:1060 (42S21): Duplicate column name 'google_reviews' -> MYSQL -> PhoneBot couldn't add the missing column google_reviews in table contacts.
+17319:2021-10-04 15:39:07,430:ERROR:__mymodules__:AddMissingColumnstoMysql:1060 (42S21): Duplicate column name 'source' -> MYSQL -> PhoneBot couldn't add the missing column source in table contacts.
+17319:2021-10-04 15:39:07,508:ERROR:__mymodules__:AddMissingColumnstoMysql:1060 (42S21): Duplicate column name 'id_task_user' -> MYSQL -> PhoneBot couldn't add the missing column id_task_user in table contacts.
+17319:2021-10-04 15:39:07,564:ERROR:__mymodules__:AddMissingColumnstoMysql:1060 (42S21): Duplicate column name 'replied' -> MYSQL -> PhoneBot couldn't add the missing column replied in table contacts.
+17319:2021-10-04 15:39:07,612:ERROR:__mymodules__:AddMissingColumnstoMysql:1060 (42S21): Duplicate column name 'replied_invitation' -> MYSQL -> PhoneBot couldn't add the missing column replied_invitation in table contacts.
+17319:2021-10-04 15:39:07,686:ERROR:__mymodules__:AddMissingColumnstoMysql:1060 (42S21): Duplicate column name 'date_created' -> MYSQL -> PhoneBot couldn't add the missing column date_created in table contacts.
+17319:2021-10-04 15:39:07,765:ERROR:__mymodules__:AddMissingColumnstoMysql:1060 (42S21): Duplicate column name 'date_update' -> MYSQL -> PhoneBot couldn't add the missing column date_update in table contacts.
+17319:2021-10-04 15:39:07,767:INFO:__mymodules__:KillPhoneBot:========================= Start KillPhoneBot ======================================
+17319:2021-10-04 15:39:07,769:INFO:__mymodules__:KillPhoneBot:PhoneBot found a PID in local table. that means another instance of PhoneBot may be running... Let's KILL it.
+17319:2021-10-04 15:39:07,770:ERROR:__mymodules__:KillPhoneBot:psutil.NoSuchProcess no process found with pid 6136 --> PhoneBot failed to close another instance of PhoneBot N°6136. Maybe this instance was already killed.
+17319:2021-10-04 15:39:07,910:INFO:__mymodules__:KillPhoneBot:PhoneBot UPDATE PID in local database
+17319:2021-10-04 15:39:08,926:INFO:__mymodules__:EmptyTablesmartphones:PhoneBot will empty the table 'smartphones'
+17319:2021-10-04 15:39:08,927:INFO:__PhoneBot__:CheckLicense:============================ START CheckLicense() =================================
+17319:2021-10-04 15:39:08,929:INFO:__PhoneBot__:CheckLicense:CheckLicense()||| self.license_key_config : platinumXDZZ-JEOF-AK3I-3HHV
+17319:2021-10-04 15:39:08,929:INFO:__PhoneBot__:CheckLicense:CheckLicense()||| email : brigittevandecastle@gmail.com
+17319:2021-10-04 15:39:08,932:INFO:__mymodules__:CheckProductID:---------------- Starting initialize_phonebot function ---------------------
+17319:2021-10-04 15:39:08,932:INFO:__mymodules__:CheckProductID:You purchased the plan plat
+17319:2021-10-04 15:39:09,474:INFO:__mymodules__:CheckProductID:We found the product ID. :-)
+17319:2021-10-04 15:39:09,474:INFO:__PhoneBot__:CheckLicense:He's not an affiliate.
+17319:2021-10-04 15:39:09,475:INFO:__PhoneBot__:CheckSubscription:======================================== CheckSubscription brigittevandecastle@gmail.com - platinumXDZZ-JEOF-AK3I-3HHV ============================
+17319:2021-10-04 15:39:09,952:CRITICAL:__PhoneBot__:CheckSubscription:Error check subscription => No module named 'ntplib'
+17319:2021-10-04 15:39:09,959:CRITICAL:__PhoneBot__:CheckLicense:Problem with CheckLicense() function => cannot unpack non-iterable NoneType object. Please have a look at the code.
+17319:2021-10-04 15:39:09,976:INFO:__PhoneBot__:HideButtonsRunOneTask:DEF ============= HideButtonsRunOneTask p_mode=True=============================
+17319:2021-10-04 15:39:09,978:INFO:__PhoneBot__:__init__:Multithreading with maximum 8 threads
+17319:2021-10-04 15:39:09,979:INFO:__PhoneBot__:TabRunOneTask_PrepareListTasksButtons:DEF ============= TabRunOneTask_PrepareListTasksButtons p_action=hide p_device computer=============================
+17319:2021-10-04 15:39:10,512:INFO:__PhoneBot__:TabRunOneTask_ShowHideTasksButtons:DEF ============= TabRunOneTask_ShowHideTasksButtons hide =============================

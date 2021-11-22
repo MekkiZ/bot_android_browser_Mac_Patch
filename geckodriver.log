@@ -1,0 +1,465 @@
+1621667472923	geckodriver	INFO	Listening on 127.0.0.1:50123
+1621667477827	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\gauth\\AppData\\Local\\Temp\\rust_mozprofile1zuQVH"
+1621667478235	Marionette	INFO	Marionette enabled
+1621667479488	Marionette	INFO	Listening on port 50161
+1621667479906	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 12612, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1621667480961	Marionette	INFO	Stopped listening on port 50161
+1621667587123	geckodriver	INFO	Listening on 127.0.0.1:50446
+1621667591963	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\gauth\\AppData\\Local\\Temp\\rust_mozprofile9Aoapi"
+1621667592325	Marionette	INFO	Marionette enabled
+1621667593509	Marionette	INFO	Listening on port 50454
+1621667594021	Marionette	WARN	TLS certificate errors will be ignored for this session
+1621667738208	geckodriver	INFO	Listening on 127.0.0.1:50553
+1621667743077	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\gauth\\AppData\\Local\\Temp\\rust_mozprofileHAGdJm"
+1621667743431	Marionette	INFO	Marionette enabled
+1621667744594	Marionette	INFO	Listening on port 50567
+1621667744605	Marionette	WARN	TLS certificate errors will be ignored for this session
+Marionette threw an error: TypeError: browsingContextFn().currentWindowGlobal is null
+getMarionetteCommandsActorProxy/get/<@chrome://marionette/content/actors/MarionetteCommandsParent.jsm:327:29
+
+1621667747908	Marionette	INFO	Stopped listening on port 50567
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: resource://gre/modules/PageThumbUtils.jsm, line 38: TypeError: aWindow is null
+1621667873067	geckodriver	INFO	Listening on 127.0.0.1:50679
+1621667877961	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\gauth\\AppData\\Local\\Temp\\rust_mozprofileq1NBEM"
+1621667878338	Marionette	INFO	Marionette enabled
+1621667879750	Marionette	INFO	Listening on port 50687
+1621667880038	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: EU compliance was not acknowledged by the user.
+1621670923083	Marionette	INFO	Stopped listening on port 50687
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1625124068080	geckodriver	INFO	Listening on 127.0.0.1:50524
+1625124073934	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\gauth\\AppData\\Local\\Temp\\rust_mozprofile8c5duF"
+1625124074296	Marionette	INFO	Marionette enabled
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: has already ran once and saw panel, exit.
+1625124075784	Marionette	INFO	Listening on port 50534
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: has already ran once and saw panel, exit.
+1625124075995	Marionette	WARN	TLS certificate errors will be ignored for this session
+1626938771340	geckodriver	INFO	Listening on 127.0.0.1:63644
+1626938777222	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\gauth\\AppData\\Local\\Temp\\rust_mozprofileccctm1"
+1626938777642	Marionette	INFO	Marionette enabled
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: has already ran once and saw panel, exit.
+1626938779357	Marionette	INFO	Listening on port 63652
+1626938779406	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 108: Error: sendRemoveListener on closed conduit s3download@statusbar.274877906976
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: has already ran once and saw panel, exit.
+1626957723387	geckodriver	INFO	Listening on 127.0.0.1:54683
+1626957729344	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\gauth\\AppData\\Local\\Temp\\rust_mozprofile8v6KN0"
+1626957729753	Marionette	INFO	Marionette enabled
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: has already ran once and saw panel, exit.
+1626957731476	Marionette	INFO	Listening on port 54691
+1626957731524	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 108: Error: sendRemoveListener on closed conduit s3download@statusbar.274877906954
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: has already ran once and saw panel, exit.
+1626957997577	geckodriver	INFO	Listening on 127.0.0.1:54028
+1626958003634	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\gauth\\AppData\\Local\\Temp\\rust_mozprofiledfojOZ"
+1626958004013	Marionette	INFO	Marionette enabled
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: has already ran once and saw panel, exit.
+1626958005620	Marionette	INFO	Listening on port 54036
+1626958005786	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: has already ran once and saw panel, exit.
+JavaScript error: , line 0: uncaught exception: Object
+1626961884963	geckodriver	INFO	Listening on 127.0.0.1:50104
+1626961890994	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\gauth\\AppData\\Local\\Temp\\rust_mozprofileJHXLLS"
+1626961891368	Marionette	INFO	Marionette enabled
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: has already ran once and saw panel, exit.
+1626961892840	Marionette	INFO	Listening on port 57017
+1626961893053	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 108: Error: sendRemoveListener on closed conduit s3download@statusbar.274877906955
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: has already ran once and saw panel, exit.
+1627034704536	geckodriver	INFO	Listening on 127.0.0.1:56661
+1627034710432	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\gauth\\AppData\\Local\\Temp\\rust_mozprofilemjlOsB"
+1627034711185	Marionette	INFO	Marionette enabled
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: has already ran once and saw panel, exit.
+1627034713083	Marionette	INFO	Listening on port 56669
+1627034713123	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 108: Error: sendRemoveListener on closed conduit s3download@statusbar.274877906958
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: has already ran once and saw panel, exit.
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 575: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+JavaScript error: , line 0: uncaught exception: Object
+1627034907028	geckodriver	INFO	Listening on 127.0.0.1:64258
+1627034913135	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\gauth\\AppData\\Local\\Temp\\rust_mozprofileGWJoIk"
+1627034913536	Marionette	INFO	Marionette enabled
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: has already ran once and saw panel, exit.
+1627034914962	Marionette	INFO	Listening on port 64266
+1627034915178	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 108: Error: sendRemoveListener on closed conduit s3download@statusbar.274877906954
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: has already ran once and saw panel, exit.
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 575: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+1627036054614	geckodriver	INFO	Listening on 127.0.0.1:56738
+1627036060718	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\gauth\\AppData\\Local\\Temp\\rust_mozprofilezFNzyo"
+1627036061115	Marionette	INFO	Marionette enabled
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: has already ran once and saw panel, exit.
+1627036062563	Marionette	INFO	Listening on port 56746
+1627036062794	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 108: Error: sendRemoveListener on closed conduit s3download@statusbar.274877906955
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: has already ran once and saw panel, exit.
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: https://platform.twitter.com/widgets/widget_iframe.06c6ee58c3810956b7509218508c7b56.html?origin=https%3A%2F%2Fwww.yellowpages.com, line 18: Error: Network error.
+1627036238362	Marionette	INFO	Stopped listening on port 56746
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 108: Error: sendRemoveListener on closed conduit s3download@statusbar.274877907203
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1627038847880	geckodriver	INFO	Listening on 127.0.0.1:53244
+1627038853752	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\gauth\\AppData\\Local\\Temp\\rust_mozprofilerq1Rq1"
+1627039444665	geckodriver	INFO	Listening on 127.0.0.1:50086
+1627039450685	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\gauth\\AppData\\Local\\Temp\\rust_mozprofilezIvCAJ"
+1627039451576	Marionette	INFO	Marionette enabled
+1627039453135	Marionette	INFO	Listening on port 50094
+1627039453352	Marionette	WARN	TLS certificate errors will be ignored for this session
+1627039647103	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://platform.twitter.com/widgets/widget_iframe.06c6ee58c3810956b7509218508c7b56.html?origin=https%3A%2F%2Fwww.yellowpages.com, line 18: Error: Network error.
+1627039685422	geckodriver	INFO	Listening on 127.0.0.1:56690
+1627039691240	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\gauth\\AppData\\Local\\Temp\\rust_mozprofileaQfvap"
+1627039692013	Marionette	INFO	Marionette enabled
+1627039693765	Marionette	INFO	Listening on port 56698
+1627039693895	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://platform.twitter.com/widgets/widget_iframe.06c6ee58c3810956b7509218508c7b56.html?origin=https%3A%2F%2Fwww.yellowpages.com, line 18: Error: Network error.
+JavaScript error: , line 0: AbortError: The operation was aborted. 
+1627039742046	Marionette	INFO	Stopped listening on port 56698
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 108: Error: sendRemoveListener on closed conduit s3download@statusbar.274877906959
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1627039941605	geckodriver	INFO	Listening on 127.0.0.1:52346
+1627039947464	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\gauth\\AppData\\Local\\Temp\\rust_mozprofileKPIaKp"
+1627039948240	Marionette	INFO	Marionette enabled
+1627039949750	Marionette	INFO	Listening on port 52354
+1627039950154	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google.com/pagead/conversion_async.js, line 43: Script terminated by timeout at:
+@https://www.google.com/pagead/conversion_async.js:43:2147
+@https://www.google.com/pagead/conversion_async.js:74:172
+
+1627040524828	geckodriver	INFO	Listening on 127.0.0.1:62721
+1627040530702	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\gauth\\AppData\\Local\\Temp\\rust_mozprofileysxmgt"
+1627040531483	Marionette	INFO	Marionette enabled
+1627040533012	Marionette	INFO	Listening on port 62729
+1627040533387	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: AbortError: The operation was aborted. 
+JavaScript error: https://platform.twitter.com/widgets/widget_iframe.06c6ee58c3810956b7509218508c7b56.html?origin=https%3A%2F%2Fwww.yellowpages.com, line 18: Error: Network error.
+1627040601535	Marionette	INFO	Stopped listening on port 62729
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 108: Error: sendRemoveListener on closed conduit s3download@statusbar.274877906975
+[Parent 20644, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390079,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x390144,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x390144,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x390144,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x390144,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x390144,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x390144,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x390144,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x390144,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1627040779839	geckodriver	INFO	Listening on 127.0.0.1:53801
+1627040785738	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\gauth\\AppData\\Local\\Temp\\rust_mozprofilehbt3yW"
+1627040786527	Marionette	INFO	Marionette enabled
+1627040788051	Marionette	INFO	Listening on port 53809
+1627040788410	Marionette	WARN	TLS certificate errors will be ignored for this session
+1627041090293	geckodriver	INFO	Listening on 127.0.0.1:58005
+1627041096183	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\gauth\\AppData\\Local\\Temp\\rust_mozprofile2BsuAJ"
+1627041096964	Marionette	INFO	Marionette enabled
+1627041098515	Marionette	INFO	Listening on port 58013
+1627041098884	Marionette	WARN	TLS certificate errors will be ignored for this session
+1627292031222	geckodriver	INFO	Listening on 127.0.0.1:52858
+1627292037072	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\gauth\\AppData\\Local\\Temp\\rust_mozprofileLUcXlr"
+1627292038255	Marionette	INFO	Marionette enabled
+1627292040005	Marionette	INFO	Listening on port 52867
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x39009A,name=PContent::Msg_InitBackground) Channel closing: too late to send/recv, messages will be lost
+
+1627292040249	Marionette	WARN	TLS certificate errors will be ignored for this session
+1627292100237	Marionette	INFO	Stopped listening on port 52867
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 108: Error: sendRemoveListener on closed conduit s3download@statusbar.274877906955
+JavaScript error: chrome://browser/content/browser-customization.js, line 166: NS_ERROR_NOT_INITIALIZED: 
+[Parent 8868, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390079,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1627299262473	geckodriver	INFO	Listening on 127.0.0.1:50740
+1627299268574	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\gauth\\AppData\\Local\\Temp\\rust_mozprofileWOlcub"
+1627299269333	Marionette	INFO	Marionette enabled
+1627299271019	Marionette	INFO	Listening on port 50748
+1627299271244	Marionette	WARN	TLS certificate errors will be ignored for this session
+1627299534981	geckodriver	INFO	Listening on 127.0.0.1:57312
+1627299540852	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\gauth\\AppData\\Local\\Temp\\rust_mozprofile3B3di8"
+1627299541605	Marionette	INFO	Marionette enabled
+1627299543332	Marionette	INFO	Listening on port 57320
+1627299543513	Marionette	WARN	TLS certificate errors will be ignored for this session
+1627299592830	Marionette	INFO	Stopped listening on port 57320
+JavaScript error: chrome://global/content/elements/browser-custom-element.js, line 1718: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 108: Error: sendRemoveListener on closed conduit s3download@statusbar.274877906959
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390079,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1627366083061	geckodriver	INFO	Listening on 127.0.0.1:53307
+1627366088882	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\gauth\\AppData\\Local\\Temp\\rust_mozprofileGvru4Q"
+1627366090332	Marionette	INFO	Marionette enabled
+1627366092385	Marionette	INFO	Listening on port 53315
+1627366092568	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: has already ran once and saw panel, exit.
+1627367046241	geckodriver	INFO	Listening on 127.0.0.1:64612
+1627367053908	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\gauth\\AppData\\Local\\Temp\\rust_mozprofile8kc80w"
+1627367055081	Marionette	INFO	Marionette enabled
+1627367056748	Marionette	INFO	Listening on port 64620
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x39009A,name=PContent::Msg_InitBackground) Channel closing: too late to send/recv, messages will be lost
+
+1627367057123	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google-analytics.com/analytics.js, line 48: Script terminated by timeout at:
+S@https://www.google-analytics.com/analytics.js:48:598
+@https://www.google-analytics.com/analytics.js:55:223
+@https://www.google-analytics.com/analytics.js:94:356
+
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: has already ran once and saw panel, exit.
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 108: Error: sendRemoveListener on closed conduit s3download@statusbar.274877906958
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390079,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390079,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390079,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390079,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390079,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+[Parent 1920, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1627373282469	Marionette	INFO	Stopped listening on port 64620
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1627381835916	geckodriver	INFO	Listening on 127.0.0.1:65217
+1627381841836	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\gauth\\AppData\\Local\\Temp\\rust_mozprofilee58YhG"
+1627381842720	Marionette	INFO	Marionette enabled
+1627381844351	Marionette	INFO	Listening on port 65225
+1627381844510	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 108: Error: sendRemoveListener on closed conduit s3download@statusbar.274877906959
+JavaScript error: , line 0: AbortError: Actor 'Conduits' destroyed before query 'RunListener' was resolved
+1627381947543	Marionette	INFO	Stopped listening on port 65225
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1627382088533	geckodriver	INFO	Listening on 127.0.0.1:65489
+1627382094446	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\gauth\\AppData\\Local\\Temp\\rust_mozprofileseWKYP"
+1627382094758	Marionette	INFO	Marionette enabled
+1627382096269	Marionette	INFO	Listening on port 65497
+1627382096532	Marionette	WARN	TLS certificate errors will be ignored for this session
+1627382296334	geckodriver	INFO	Listening on 127.0.0.1:49330
+1627382302356	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\gauth\\AppData\\Local\\Temp\\rust_mozprofileV0RKBQ"
+1627382302697	Marionette	INFO	Marionette enabled
+1627382304307	Marionette	INFO	Listening on port 49338
+1627382304424	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 108: Error: sendRemoveListener on closed conduit s3download@statusbar.274877906953
+1627382524203	geckodriver	INFO	Listening on 127.0.0.1:49844
+1627382530224	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\gauth\\AppData\\Local\\Temp\\rust_mozprofileC2F8ir"
+1627382530554	Marionette	INFO	Marionette enabled
+1627382532097	Marionette	INFO	Listening on port 49852
+1627382532321	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 108: Error: sendRemoveListener on closed conduit s3download@statusbar.274877906954
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: has already ran once and saw panel, exit.
+1627384907913	geckodriver	INFO	Listening on 127.0.0.1:52708
+1627384913851	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\gauth\\AppData\\Local\\Temp\\rust_mozprofilejKLubY"
+1627384914186	Marionette	INFO	Marionette enabled
+1627384915795	Marionette	INFO	Listening on port 52716
+1627384915917	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google.com/pagead/conversion_async.js, line 44: Script terminated by timeout at:
+V@https://www.google.com/pagead/conversion_async.js:44:254
+Uc@https://www.google.com/pagead/conversion_async.js:53:209
+g@https://www.google.com/pagead/conversion_async.js:70:444
+vd@https://www.google.com/pagead/conversion_async.js:71:22
+window.google_trackConversion@https://www.google.com/pagead/conversion_async.js:74:156
+d@https://www.googletagmanager.com/gtm.js?id=GTM-MFB3M5G:220:142
+e@https://www.googletagmanager.com/gtm.js?id=GTM-MFB3M5G:220:188
+h/<@https://www.googletagmanager.com/gtm.js?id=GTM-MFB3M5G:220:274
+
+1627385177714	geckodriver	INFO	Listening on 127.0.0.1:59758
+1627385184593	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\gauth\\AppData\\Local\\Temp\\rust_mozprofileC1WdqK"
+1627385184929	Marionette	INFO	Marionette enabled
+1627385186633	Marionette	INFO	Listening on port 59769
+1627385186744	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 108: Error: sendRemoveListener on closed conduit s3download@statusbar.274877906954
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: has already ran once and saw panel, exit.
+1628667776813	geckodriver	INFO	Listening on 127.0.0.1:64667
+1628667811043	geckodriver	INFO	Listening on 127.0.0.1:64729
+1628667822921	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\gauth\\AppData\\Local\\Temp\\rust_mozprofileaOPQ0V"
+1628667824355	Marionette	INFO	Marionette enabled
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: has already ran once and saw panel, exit.
+1628667827846	Marionette	INFO	Listening on port 64737
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 108: Error: sendRemoveListener on closed conduit s3download@statusbar.274877906961
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: has already ran once and saw panel, exit.
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 575: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 575: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+1628667828288	Marionette	WARN	TLS certificate errors will be ignored for this session
+1628667846960	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://d3fw5vlhllyvee.cloudfront.net/passport/static/compiled/2d249a6c2f8462d31346/js/login-page.js, line 2: WebGL context was lost.
+JavaScript warning: https://d3fw5vlhllyvee.cloudfront.net/passport/static/compiled/2d249a6c2f8462d31346/js/login-page.js, line 2: WebGL context was lost.
+1628667888776	geckodriver	INFO	Listening on 127.0.0.1:50585
+1628667900066	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\gauth\\AppData\\Local\\Temp\\rust_mozprofileO94FNk"
+1628667900566	Marionette	INFO	Marionette enabled
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: has already ran once and saw panel, exit.
+1628667902975	Marionette	INFO	Listening on port 50593
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 108: Error: sendRemoveListener on closed conduit s3download@statusbar.274877906954
+1628667903269	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: has already ran once and saw panel, exit.
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 575: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 575: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+1628667914636	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://d3fw5vlhllyvee.cloudfront.net/passport/static/compiled/2d249a6c2f8462d31346/js/login-page.js, line 2: WebGL context was lost.
+JavaScript warning: https://d3fw5vlhllyvee.cloudfront.net/passport/static/compiled/2d249a6c2f8462d31346/js/login-page.js, line 2: WebGL context was lost.
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
